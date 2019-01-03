@@ -1,0 +1,63 @@
+// #region Global variables
+$iteration: 1;
+// #endregion
+
+// #region Sizes Variables
+$sizes: 2px 4px 8px 12px 18px 24px 36px;
+// #endregion
+
+// #region Color Variables
+$primaryColor: #7924f1;
+$primaryDarkColor: #5a17b7;
+$accentColor: #ffe500;
+// #endregion
+
+// #region Layout
+@each $size in $sizes {
+    .size-#{$iteration} {
+        font-size: $size;
+    }
+
+    .ma-#{$iteration} {
+        margin: $size;
+    }
+
+    .ml-#{$iteration} {
+        margin-left: $size;
+    }
+
+    .mb-#{$iteration} {
+        margin-bottom: $size;
+    }
+
+    .mr-#{$iteration} {
+        margin-right: $size;
+    }
+
+    .mt-#{$iteration} {
+        margin-top: $size;
+    }
+
+    .pa-#{$iteration} {
+        padding: $size;
+    }
+
+    .pl-#{$iteration} {
+        padding-left: $size;
+    }
+
+    .pb-#{$iteration} {
+        padding-bottom: $size;
+    }
+
+    .pr-#{$iteration} {
+        padding-right: $size;
+    }
+
+    .pt-#{$iteration} {
+        padding-top: $size;
+    }
+
+    $iteration: $iteration + 1;
+}
+// #endregion

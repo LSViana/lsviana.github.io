@@ -1,0 +1,65 @@
+@import './Variables.scss';
+
+// #region Display Flex
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+// #endregion
+
+// #region Colors
+.white {
+    background-color: white;
+}
+
+.white--text {
+    color: white;
+}
+
+.primary {
+    background-color: $primaryColor;
+}
+
+.primary--text {
+    color: $primaryColor;
+}
+
+.primaryDark {
+    background-color: $primaryDarkColor;
+}
+
+.primaryDark--text {
+    color: $primaryDarkColor;
+}
+
+.accent {
+    background-color: $accentColor;
+}
+
+.accent--text {
+    color: $accentColor;
+}
+// #endregion

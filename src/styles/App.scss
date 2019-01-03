@@ -1,0 +1,60 @@
+@import './General.scss';
+@import './Variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+// #region Reset
+img {
+    pointer-events: none;
+}
+
+::selection {
+    color: $primaryColor;
+    background-color: $accentColor;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+// #endregion
+
+// #region Class variables
+%border-radius {
+    border-radius: 1e6px;
+}
+// #endregion
+
+// #region App-wide
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin', sans-serif;
+}
+
+.cursive {
+    font-family: 'Leckerli One';
+}
+
+.bold {
+    font-family: 'Staatliches';
+}
+
+.root-container {
+    flex: 1;
+}
+
+.divider {
+    @extend %border-radius;
+    background-color: $primaryDarkColor;
+    height: nth($sizes, 2);
+    width: 100%;
+    margin: nth($sizes, 4) 0px;
+    position: relative;
+}
+
+.circular-border-radius {
+    @extend %border-radius;
+}
+// #endregion
