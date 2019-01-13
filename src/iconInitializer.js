@@ -20,7 +20,7 @@ import {
     faMobileAlt,
 } from '@fortawesome/free-solid-svg-icons'
 import {
-    faStackOverflow,
+    faLinkedinIn,
     faGithub,
     faNodeJs,
 } from '@fortawesome/free-brands-svg-icons'
@@ -44,7 +44,7 @@ library.add(faFingerprint)
 library.add(faServer)
 library.add(faMobileAlt)
 
-library.add(faStackOverflow)
+library.add(faLinkedinIn)
 library.add(faGithub)
 library.add(faNodeJs)
 

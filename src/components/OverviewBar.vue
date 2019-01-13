@@ -42,7 +42,7 @@
                 <a href="http://stackoverflow.com">
                     <div class="stackoverflow-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
-                            <fa-icon :icon="['fab', 'stack-overflow']" class="white--text" />
+                            <fa-icon :icon="['fab', 'linkedin-in']" class="white--text" />
                         </div>
                         <div class="link-container ml-4">
                             <!-- TODO Fix this text -->
