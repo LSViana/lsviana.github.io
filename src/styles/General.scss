@@ -54,6 +54,19 @@
 }
 // #endregion
 
+// #region Visibility Breakpoints
+@media screen and (max-width: $mdToSm) {
+    .visible-md-and-up {
+        display: none;
+    }
+}
+@media screen and (max-width: $lgToMd) {
+    .visible-lg-and-up {
+        display: none;
+    }
+}
+// #endregion
+
 // #region Colors
 .white {
     background-color: white;
@@ -73,6 +86,22 @@
 
 .primary-dark {
     background-color: $primaryDarkColor;
+}
+
+.dark-gray--text {
+    color: $darkGrayColor;
+}
+
+.dark-gray {
+    background-color: $darkGrayColor;
+}
+
+.light-gray--text {
+    color: $lightGrayColor;
+}
+
+.light-gray {
+    background-color: $lightGrayColor;
 }
 
 .primary-dark--text {
@@ -123,5 +152,10 @@
 
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.text-line-through-primary {
+    text-decoration-line: line-through;
+    text-decoration-color: $primaryColor;
 }
 // #endregion

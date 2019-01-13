@@ -1,15 +1,6 @@
 <template>
     <div class="personal-skills">
-        <div class="position-sticky header-row pa-5 d-flex flex-row align-center white">
-            <span
-                class="header-title-marker accent--text size-7 primary d-flex flex-row justify-center align-center bold">
-                I
-            </span>
-            <div class="pa-3" />
-            <h1 class="header-title primary--text bold">
-                Personal Overview
-            </h1>
-        </div>
+        <sticky-header number="I" title="Personal Overview" />
         <div class="intro-row pa-6">
             <p class="text-underline size-7 primary--text">
                 Engaged to study and practice programming trying to improve people's routine. I like talking about programming and technologies or playing games to relax.
@@ -234,27 +225,6 @@ export default {
 
 <style lang="scss">
 @import '../styles/Variables.scss';
-
-.position-sticky {
-    position: sticky;
-    top: 0;
-}
-
-.personal-skills {
-    .header-row {
-        z-index: 5;
-        border-bottom: $primaryColor nth($sizes, 3) dashed;
-        .header-title {
-            font-weight: 100;
-        }
-        .header-title-marker {
-            border-radius: 100%;
-            width: nth($sizes, 8);
-            height: nth($sizes, 8);
-        }
-    }
-}
-
 .intro-row {
     & > p {
         line-height: 150%;

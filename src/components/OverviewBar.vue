@@ -77,7 +77,8 @@ export default {
 @import '../styles/Variables.scss';
 
 .overview-container {
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     .profile-container {
         margin-bottom: nth($sizes, 8);
         .picture-container {
@@ -110,14 +111,13 @@ export default {
         background-color: white;
         flex: 1;
         position: relative;
-        padding-top: nth($sizes, 4);
         .oblique-divider {
-            transform: rotate(-2.5deg) translateY(nth($sizes, 4) * -1);
+            transform: rotate(-2.5deg) translateY(nth($sizes, 6) * -1);
         }
         .get-in-touch-container {
             position: relative;
             align-self: stretch;
-            margin: nth($sizes, 8) 0px;
+            margin: nth($sizes, 5) 0px;
             .contact-title {
                 z-index: 2;
                 font-weight: 100;
@@ -126,7 +126,7 @@ export default {
             }
             .oblique-divider:nth-child(1) {
                 z-index: -1;
-                transform: rotate(1deg) translateY(nth($sizes, 3));
+                transform: rotate(1deg) translateY(nth($sizes, 3) * -1);
                 background-color: $primaryColor;
             }
             .oblique-divider:nth-child(2) {

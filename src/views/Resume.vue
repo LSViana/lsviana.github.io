@@ -6,6 +6,7 @@
         <div class="sessions-container d-flex flex-column">
             <!-- My personal skills -->
             <personal-skills />
+            <hard-skills />
         </div>
     </div>
 </template>

@@ -24,6 +24,7 @@ $primaryColor: #7924f1;
 $primaryDarkColor: #5a17b7;
 $accentColor: #ffe500;
 $grayColor: gray;
+$lightGrayColor: rgb(156, 156, 156);
 $darkGrayColor: dimgray;
 // #endregion
 
@@ -36,6 +37,10 @@ $darkGrayColor: dimgray;
 
     .border-radius-#{$iteration} {
         border-radius: $size;
+    }
+
+    .line-height-#{$iteration} {
+        line-height: $size;
     }
 
     .ma-#{$iteration} {
