@@ -192,7 +192,7 @@
                             </div>
                         </div>
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
-                            <div class="technology-header d-flex flex-row align-center">
+                            <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
                                     <img
                                         src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/thumb/expressjslogo.png"
@@ -294,7 +294,7 @@
                             </div>
                         </div>
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
-                            <div class="technology-header d-flex flex-row align-center">
+                            <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white pa-3 circular-border-radius">
                                     <img
                                         src="https://seeklogo.com/images/X/xamarin-logo-348B1EB629-seeklogo.com.png"
@@ -383,6 +383,9 @@ export default {
                     border: nth($sizes, 3) $primaryColor dashed;
                     .technology-header {
                         color: $primaryColor;
+                        & > * {
+                            margin-top: nth($sizes, 4);
+                        }
                         h3 {
                             a {
                                 border-bottom: nth($sizes, 3) $primaryColor dashed;
