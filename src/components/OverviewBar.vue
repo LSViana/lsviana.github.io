@@ -27,7 +27,7 @@
             </div>
             <div class="social-media d-flex flex-column align-center mt-5">
                 <!-- TODO Fix this link -->
-                <a href="http://mail.google.com">
+                <a href="mailto:lv201122@gmail.com">
                     <div class="facebook-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fas', 'at']" class="white--text" />
@@ -39,19 +39,19 @@
                     </div>
                 </a>
                 <!-- TODO Fix this link -->
-                <a href="http://stackoverflow.com">
-                    <div class="stackoverflow-media d-flex flex-row justify-center align-center">
+                <a href="https://www.linkedin.com/in/lsviana/">
+                    <div class="linkedin-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'linkedin-in']" class="white--text" />
                         </div>
                         <div class="link-container ml-4">
                             <!-- TODO Fix this text -->
-                            <p>stackoverflow.com/lucas.viana</p>
+                            <p>linkedin.com/in/lsviana/</p>
                         </div>
                     </div>
                 </a>
                  <!-- TODO Fix this link -->
-                <a href="http://github.com">
+                <a href="http://github.com/LSViana">
                     <div class="github-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'github']" class="white--text" />
