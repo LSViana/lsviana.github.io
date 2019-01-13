@@ -85,7 +85,8 @@ export default {
             border-radius: 1e6px;
             border: nth($sizes, 3) solid $accentColor;
             overflow: hidden;
-            width: 60%;
+            width: nth($sizes, 9) * 5;
+            height: nth($sizes, 9) * 5;
             display: flex;
             img {
                 width: 100%;
