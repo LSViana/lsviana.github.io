@@ -333,6 +333,21 @@ export default {
 <style lang="scss">
 @import '../styles/Variables.scss';
 
+@media screen and (max-width: $lgToMd) {
+    .development-areas {
+        .development-area {
+            .development-technologies {
+                padding-right: nth($sizes, 4) !important;
+                padding-left: nth($sizes, 4) !important;
+                .technologies-container {
+                    .technology {
+                    }
+                }
+            }
+        }
+    }
+}
+
 .development-areas {
     .development-area {
         border-radius: nth($sizes, 3);
