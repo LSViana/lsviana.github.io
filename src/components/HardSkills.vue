@@ -17,7 +17,7 @@
                 </div>
                 <div class="development-purpose mt-8 ma-6 px-7 d-flex flex-column justify-center align-center">
                     <p class="dark-gray--text size-6 ma-3 line-height-8">
-                        Creating websites is the easiest way to <span class="primary white--text px-4 py-3 border-radius-3">get closer to your customers or target audience</span>. Since from simple ones until the complex e-commerces, I can help you making your dreams come true!
+                        Creating websites is the easiest way to <span class="primary white--text px-4 py-3 border-radius-3">get closer to your customers or target audience</span>. From simple ones until the complex e-commerces, I can help you making your dreams come true!
                     </p>
                 </div>
                 <div class="development-technologies primary pa-8 mt-8">
