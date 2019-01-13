@@ -20,6 +20,11 @@ img {
     border: 0px;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+    color: unset;
+}
 // #endregion
 
 // #region Class variables
@@ -48,13 +53,118 @@ p, h1, h2, h3, h4, h5, h6 {
 .divider {
     @extend %border-radius;
     background-color: $primaryDarkColor;
-    height: nth($sizes, 2);
+    height: nth($sizes, 3);
     width: 100%;
-    margin: nth($sizes, 4) 0px;
+    margin: nth($sizes, 5) 0px;
     position: relative;
+}
+
+.oblique-divider {
+    z-index: 1;
+    background-color: white;
+    height: nth($sizes, 9);
+    width: 200%;
+    left: -51%;
+    top: -1 * nth($sizes, 6);
+    position: absolute;
+    transform: rotate(-3deg);
 }
 
 .circular-border-radius {
     @extend %border-radius;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+%wavy {
+    position: relative;
+    height: nth($sizes, 6);
+}
+
+%wavyBefore {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    height: 10px;
+    background-size: 20px 20px;
+}
+
+%wavyAfter {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    height: 15px;
+    background-size: 40px 20px;
+}
+
+.wavy-primary {
+    @extend %wavy;
+}
+
+.wavy-primary::before {
+    @extend %wavyBefore;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, $primaryColor 13px);
+}
+
+.wavy-primary::after {
+    @extend %wavyAfter;
+    background-image: radial-gradient(circle at 10px 15px, $primaryColor 12px, transparent 13px);
+}
+
+.wavy-white {
+    @extend %wavy;
+}
+
+.wavy-white::before {
+    @extend %wavyBefore;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, white 13px);
+}
+
+.wavy-white::after {
+    @extend %wavyAfter;
+    background-image: radial-gradient(circle at 10px 15px, white 12px, transparent 13px);
+}
+
+%squareWavy {
+    position: relative;
+    height: nth($sizes, 6);
+}
+
+%squareWavyBefore {
+    content: ' ';
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    right: 0px;
+    bottom: -1px;
+    background-size: nth($sizes, 7);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.square-wave-primary {
+    @extend %squareWavy;
+}
+
+.square-wave-primary::before {
+    @extend %squareWavyBefore;
+    background-image: url('../assets/svg/square-wave-primary.svg');
+}
+
+.square-wave-white {
+    @extend %squareWavy;
+}
+
+.square-wave-white::before {
+    @extend %squareWavyBefore;
+    background-image: url('../assets/svg/square-wave-white.svg');
 }
 // #endregion

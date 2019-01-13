@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import './styles/App.scss'
+import './iconInitializer'
 
 // Importing all components inside './components' folder
 const req = require.context('./components/', true, /\.(js|vue)$/i);

@@ -2,20 +2,40 @@
 $iteration: 1;
 // #endregion
 
+// #region Breakpoints
+$smToXs: 640px;
+$mdToSm: 768px;
+$lgToMd: 1080px;
+$xlToLg: 1920px;
+// #endregion
+
+// #region Time variables
+$shortTime: .3s;
+$mediumTime: .6s;
+$longTime: 1s;
+// #endregion
+
 // #region Sizes Variables
-$sizes: 2px 4px 8px 12px 18px 24px 36px;
+$sizes: 0px 2px 4px 8px 12px 18px 24px 36px 48px;
 // #endregion
 
 // #region Color Variables
 $primaryColor: #7924f1;
 $primaryDarkColor: #5a17b7;
 $accentColor: #ffe500;
+$grayColor: gray;
+$darkGrayColor: dimgray;
 // #endregion
 
 // #region Layout
 @each $size in $sizes {
+
     .size-#{$iteration} {
         font-size: $size;
+    }
+
+    .border-radius-#{$iteration} {
+        border-radius: $size;
     }
 
     .ma-#{$iteration} {
@@ -38,6 +58,16 @@ $accentColor: #ffe500;
         margin-top: $size;
     }
 
+    .mx-#{$iteration} {
+        margin-left: $size;
+        margin-right: $size;
+    }
+
+    .my-#{$iteration} {
+        margin-top: $size;
+        margin-bottom: $size;
+    }
+
     .pa-#{$iteration} {
         padding: $size;
     }
@@ -56,6 +86,16 @@ $accentColor: #ffe500;
 
     .pt-#{$iteration} {
         padding-top: $size;
+    }
+
+    .px-#{$iteration} {
+        padding-left: $size;
+        padding-right: $size;
+    }
+
+    .py-#{$iteration} {
+        padding-top: $size;
+        padding-bottom: $size;
     }
 
     $iteration: $iteration + 1;

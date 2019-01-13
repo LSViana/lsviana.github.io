@@ -17,6 +17,10 @@
     flex-wrap: nowrap;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .flex-1 {
     flex: 1;
 }
@@ -25,8 +29,28 @@
     justify-content: center;
 }
 
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
 .align-center {
     align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-stretch {
+    align-items: stretch;
 }
 // #endregion
 
@@ -47,11 +71,11 @@
     color: $primaryColor;
 }
 
-.primaryDark {
+.primary-dark {
     background-color: $primaryDarkColor;
 }
 
-.primaryDark--text {
+.primary-dark--text {
     color: $primaryDarkColor;
 }
 
@@ -61,5 +85,43 @@
 
 .accent--text {
     color: $accentColor;
+}
+// #endregion
+
+// #region Text Styles
+.font-weight-thin {
+    font-weight: 100;
+}
+
+.font-weight-light {
+    font-weight: 300;
+}
+
+.font-weight-medium {
+    font-weight: 500;
+}
+
+.font-weight-regular {
+    font-weight: 600;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.font-weight-black {
+    font-weight: 900;
+}
+
+.text-underline {
+    display: inline;
+}
+
+.text-small-caps {
+    font-variant: small-caps;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
 }
 // #endregion
