@@ -89,7 +89,10 @@
                 <div class="education-item d-flex flex-row align-stretch flex-nowrap">
                     <div class="education-left-line" />
                     <div class="education-school-logo primary">
-                        <img src="../assets/jpg/senai-purple.jpeg" alt="Escola SENAI de Informática's logo">
+                        <img
+                            style="filter: hue-rotate(-15deg)"
+                            src="../assets/jpg/senai-purple.jpeg"
+                            alt="Escola SENAI de Informática's logo">
                     </div>
                     <div class="education-item-description">
                         <div class="education-title">
@@ -147,7 +150,10 @@
                 <div class="education-item d-flex flex-row align-stretch flex-nowrap">
                     <div class="education-left-line" />
                     <div class="education-school-logo primary">
-                        <img src="../assets/jpg/senai-purple.jpeg" alt="Escola SENAI de Informática's logo">
+                        <img
+                            style="filter: hue-rotate(-15deg)"
+                            src="../assets/jpg/senai-purple.jpeg"
+                            alt="Escola SENAI de Informática's logo">
                     </div>
                     <div class="education-item-description">
                         <div class="education-title">
