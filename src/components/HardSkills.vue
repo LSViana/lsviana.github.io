@@ -34,7 +34,7 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white pa-4 pt-5 circular-border-radius">
                                     <img
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"
+                                        src="../assets/png/vue-js.png"
                                         alt="Logo of Vue.js">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
@@ -53,7 +53,7 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
                                     <img
-                                        src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                                        src="../assets/png/react-js.png"
                                         alt="Logo of React.js">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
@@ -64,7 +64,9 @@
                             </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
-                                    Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of facilities to build websites highly customized, beautiful and interactive with the same tool which <span class="primary white--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
+                                    Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of facilities to build
+                                    websites highly customized, beautiful and interactive with the same tool which is
+                                    <span class="primary white--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
                                 </p>
                             </div>
                         </div>
@@ -118,7 +120,7 @@
                                 <div class="technology-logo white circular-border-radius pa-3">
                                     <img
                                         style="transform: scale(1.5)"
-                                        src="https://codeopinion.com/wp-content/uploads/2018/07/Bitmap-MEDIUM_ASP.NET-Core-Logo_2colors_Square_RGB.png"
+                                        src="../assets/png/asp-net-core.png"
                                         alt="Logo of ASP.NET Core">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
@@ -132,7 +134,7 @@
                                 <div class="technology-logo white circular-border-radius pa-3 overflow-hidden">
                                     <img
                                         style="transform: scale(1.5)"
-                                        src="https://codeopinion.com/wp-content/uploads/2017/10/Bitmap-MEDIUM_Entity-Framework-Core-Logo_2colors_Square_Boxed_RGB.png"
+                                        src="../assets/png/ef-core.png"
                                         alt="Logo of Entity Framework Core">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
@@ -158,7 +160,7 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
                                     <img
-                                        src="http://yawintutor.com/images/home/spring.png"
+                                        src="../assets/png/spring.png"
                                         alt="Logo of Spring">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
@@ -171,11 +173,11 @@
                                 </span>
                                 <div class="technology-logo accent pa-4 circular-border-radius">
                                     <img
-                                        src="https://seeklogo.com/images/H/hibernate-logo-8C95C75A24-seeklogo.com.png"
+                                        src="../assets/png/hibernate.png"
                                         alt="Logo of Hibernate">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="http://hibernate.org/">
+                                    <a href="https://hibernate.org/">
                                         Hibernate
                                     </a>
                                 </h3>
@@ -195,7 +197,7 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
                                     <img
-                                        src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/thumb/expressjslogo.png"
+                                        src="../assets/png/express-js.png"
                                         alt="Logo of Express.js">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
@@ -248,7 +250,7 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary circular-border-radius pa-3">
                                     <img
-                                        src="https://facebook.github.io/react-native/img/header_logo.png"
+                                        src="../assets/png/react-native.png"
                                         alt="Logo of React Native">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
@@ -272,7 +274,7 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo accent pa-3 circular-border-radius">
                                     <img
-                                        src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png"
+                                        src="../assets/png/flutter.png"
                                         alt="Logo of Flutter">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
@@ -297,7 +299,7 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white pa-3 circular-border-radius">
                                     <img
-                                        src="https://seeklogo.com/images/X/xamarin-logo-348B1EB629-seeklogo.com.png"
+                                        src="../assets/png/xamarin-forms.png"
                                         alt="Logo of Xamarin.Forms">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">

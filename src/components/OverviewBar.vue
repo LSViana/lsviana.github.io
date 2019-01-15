@@ -4,6 +4,7 @@
             class="profile-container d-flex flex-column align-center pa-6">
             <div class="picture-container">
                 <img
+                    style="filter: hue-rotate(5deg)"
                     src="../assets/png/profile.png"
                     alt="Profile picture">
             </div>
@@ -51,7 +52,7 @@
                     </div>
                 </a>
                  <!-- TODO Fix this link -->
-                <a href="http://github.com/LSViana">
+                <a href="https://github.com/LSViana">
                     <div class="github-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'github']" class="white--text" />
