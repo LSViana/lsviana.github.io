@@ -3,8 +3,148 @@
         <sticky-header number="I" title="Personal Overview" />
         <div class="intro-row pa-6">
             <p class="text-underline size-7 primary--text">
-                Engaged to study and practice programming trying to improve people's routine. I like talking about programming and technologies or playing games to relax.
+                A Software Developer which has been loving this art since 2013, when I was just 12 y/0. Since back then, I found out my main goal is to improve people's routine through Software.
             </p>
+        </div>
+
+        <div class="square-wave-primary" />
+        <div class="awards-container primary pa-6">
+            <h3 class="white--text bold size-7 font-weight-light">
+                Awards:
+            </h3>
+            <div class="awards-items">
+                <div class="award-item">
+                    <div class="d-flex flex-row flex-wrap align-center">
+                        <fa-icon :icon="['fas', 'award']" class="size-8 accent--text" />
+                        <h2 class="mx-4 size-8 accent--text">
+                            1st
+                        </h2>
+                        <h3 class="award-title">
+                            <span>Statewide Champion</span>
+                            in
+                            <span class="award-competition-name">
+                                <a href="https://saopauloskills.sp.senai.br/" target="blank">
+                                    São Paulo Skills 2017
+                                </a>
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row flex-wrap">
+                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
+                            November, 2017
+                        </h5>
+                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
+                            Awarded in Elis Regina Anhembi Auditorium
+                        </h5>
+                    </div>
+                    <p>
+                        This competition is organized by SENAI, each state (similar to province) of Brazil performs its own. I won this competition in the modality of Desktop Software Development taking a score <span class="accent--text bold size-6">56 points higher</span> than the 2nd place (in a range of 0-100)!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="square-wave-white primary" />
+        <div class="education-container pa-6">
+            <h3 class="primary--text bold size-7 font-weight-light">
+                Education:
+            </h3>
+            <div class="education-timeline pl-4">
+                <div class="education-border-line" />
+                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
+                    <div class="education-left-line" />
+                    <div class="education-school-logo primary">
+                        <img
+                            style="filter: hue-rotate(-15deg)"
+                            src="../assets/jpg/senai-purple.jpeg"
+                            alt="Escola SENAI de Informática's logo">
+                    </div>
+                    <div class="education-item-description">
+                        <div class="education-title">
+                            <p class="size-7 font-weight-light primary--text">
+                                <span>Software and Hardware Assistant</span>
+                                in
+                                <span class="education-school font-weight-bold">
+                                    <a href="https://informatica.sp.senai.br/" target="blank">
+                                        Escola SENAI de Informática
+                                    </a>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="education-date">
+                            <p class="bold size-6">
+                                2016-2016
+                            </p>
+                        </div>
+                        <div class="education-description size-6">
+                            <p>
+                                I learned loving software by my own, but if I couldn't handle my hardware to support such a good software I'd not survive. As a student, it was one of the best places I could ever choose to study!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
+                    <div class="education-left-line" />
+                    <div class="education-school-logo primary">
+                        <img src="../assets/svg/if-purple.svg" alt="Instituto Federal de São Paulo's logo">
+                    </div>
+                    <div class="education-item-description">
+                        <div class="education-title">
+                            <p class="size-7 font-weight-light primary--text">
+                                <span>Software Development Technical</span>
+                                in
+                                <span class="education-school font-weight-bold">
+                                    <a href="https://spo.ifsp.edu.br/" target="blank">
+                                        Instituto Federal de São Paulo
+                                    </a>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="education-date">
+                            <p class="bold size-6">
+                                2016-2019
+                            </p>
+                        </div>
+                        <div class="education-description size-6">
+                            <p>
+                                This course lasted 4 years because it was integrated to High School, I did like the people I met here, I could evolve a lot and see new horizons. Since back there, when I started here, I am used to say this course was a great choice to complement the one from <span>Escola SENAI de Informática</span>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
+                    <div class="education-left-line" />
+                    <div class="education-school-logo primary">
+                        <img
+                            style="filter: hue-rotate(-15deg)"
+                            src="../assets/jpg/senai-purple.jpeg"
+                            alt="Escola SENAI de Informática's logo">
+                    </div>
+                    <div class="education-item-description">
+                        <div class="education-title">
+                            <p class="size-7 font-weight-light primary--text">
+                                <span>Software Development Technical</span>
+                                in
+                                <span class="education-school font-weight-bold">
+                                    <a href="https://informatica.sp.senai.br/" target="blank">
+                                        Escola SENAI de Informática
+                                    </a>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="education-date">
+                            <p class="bold size-6">
+                                2017-2018
+                            </p>
+                        </div>
+                        <div class="education-description size-6">
+                            <p>
+                                Here I could dive in some new technologies and improve the major concepts about programming, which I started developing on my own since I was 12 y/o. At this course I learned about desktop, web and mobile software development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-border-line" />
+            </div>
         </div>
         <div class="wavy-primary" />
         <div class="interests-container primary pa-6">
@@ -80,145 +220,6 @@
             </div>
         </div>
         <div class="wavy-white primary" />
-        <div class="education-container pa-6">
-            <h3 class="primary--text bold size-7 font-weight-light">
-                Education:
-            </h3>
-            <div class="education-timeline pl-4">
-                <div class="education-border-line" />
-                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
-                    <div class="education-left-line" />
-                    <div class="education-school-logo primary">
-                        <img
-                            style="filter: hue-rotate(-15deg)"
-                            src="../assets/jpg/senai-purple.jpeg"
-                            alt="Escola SENAI de Informática's logo">
-                    </div>
-                    <div class="education-item-description">
-                        <div class="education-title">
-                            <p class="size-7 font-weight-light primary--text">
-                                <span>Software and Hardware Assistant</span>
-                                in
-                                <span class="education-school font-weight-bold">
-                                    <a href="https://informatica.sp.senai.br/">
-                                        Escola SENAI de Informática
-                                    </a>
-                                </span>
-                            </p>
-                        </div>
-                        <div class="education-date">
-                            <p class="bold size-6">
-                                2016-2016
-                            </p>
-                        </div>
-                        <div class="education-description size-6">
-                            <p>
-                                I learned loving software by my own, but if I couldn't handle my hardware to support such a good software I'd not survive. As a student, it was one of the best places I could ever choose to study!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
-                    <div class="education-left-line" />
-                    <div class="education-school-logo primary">
-                        <img src="../assets/svg/if-purple.svg" alt="Instituto Federal de São Paulo's logo">
-                    </div>
-                    <div class="education-item-description">
-                        <div class="education-title">
-                            <p class="size-7 font-weight-light primary--text">
-                                <span>Software Development Technical</span>
-                                in
-                                <span class="education-school font-weight-bold">
-                                    <a href="https://spo.ifsp.edu.br/">
-                                        Instituto Federal de São Paulo
-                                    </a>
-                                </span>
-                            </p>
-                        </div>
-                        <div class="education-date">
-                            <p class="bold size-6">
-                                2016-2019
-                            </p>
-                        </div>
-                        <div class="education-description size-6">
-                            <p>
-                                This course lasted 4 years because it was integrated to High School, I did like the people I met here, I could evolve a lot and see new horizons. Since back there, when I started here, I am used to say this course was a great choice to complement the one from <span>Escola SENAI de Informática</span>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
-                    <div class="education-left-line" />
-                    <div class="education-school-logo primary">
-                        <img
-                            style="filter: hue-rotate(-15deg)"
-                            src="../assets/jpg/senai-purple.jpeg"
-                            alt="Escola SENAI de Informática's logo">
-                    </div>
-                    <div class="education-item-description">
-                        <div class="education-title">
-                            <p class="size-7 font-weight-light primary--text">
-                                <span>Software Development Technical</span>
-                                in
-                                <span class="education-school font-weight-bold">
-                                    <a href="https://informatica.sp.senai.br/">
-                                        Escola SENAI de Informática
-                                    </a>
-                                </span>
-                            </p>
-                        </div>
-                        <div class="education-date">
-                            <p class="bold size-6">
-                                2017-2018
-                            </p>
-                        </div>
-                        <div class="education-description size-6">
-                            <p>
-                                Here I could dive in some new technologies and improve the major concepts about programming, which I started developing on my own since I was 12 y/o. At this course I learned about desktop, web and mobile software development.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="education-border-line" />
-            </div>
-        </div>
-        <div class="square-wave-primary" />
-        <div class="awards-container primary pa-6">
-            <h3 class="white--text bold size-7 font-weight-light">
-                Awards:
-            </h3>
-            <div class="awards-items">
-                <div class="award-item">
-                    <div class="d-flex flex-row flex-wrap align-center">
-                        <fa-icon :icon="['fas', 'award']" class="size-8 accent--text" />
-                        <h2 class="mx-4 size-8 accent--text">
-                            1st
-                        </h2>
-                        <h3 class="award-title">
-                            <span>Statewide Champion</span>
-                            in
-                            <span class="award-competition-name">
-                                <a href="https://saopauloskills.sp.senai.br/">
-                                    São Paulo Skills 2017
-                                </a>
-                            </span>
-                        </h3>
-                    </div>
-                    <div class="d-flex flex-row flex-wrap">
-                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
-                            November, 2017
-                        </h5>
-                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
-                            Awarded in Elis Regina Anhembi Auditorium
-                        </h5>
-                    </div>
-                    <p>
-                        This competition is organized by SENAI, each state (similar to province) of Brazil performs its own. I won this competition in the modality of Desktop Software Development taking a score <span class="accent--text bold size-6">56 points higher</span> than the 2nd place (in a range of 0-100)!
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="square-wave-white primary" />
         <div class="my-6" />
     </div>
 </template>

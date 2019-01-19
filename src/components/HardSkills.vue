@@ -43,6 +43,21 @@
                                     </a>
                                 </h3>
                             </div>
+                            <div class="technology-projects">
+                                <p>Previous projects:</p>
+                                <div class="projects-container">
+                                    <a href="https://infocast.senai.io/" target="blank">
+                                        <div class="technology-project">
+                                            <h3>SENAI InfoCast</h3>
+                                        </div>
+                                    </a>
+                                    <a href="https://lsviana.github.io/" target="blank">
+                                        <div class="technology-project">
+                                            <h3>Personal Résumé</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
                                     This is a reactive framework for developing websites, it was used to develop <span class="primary accent--text px-3 py-2 bold border-radius-3">this</span> résumé and, I can say it personally, it made the task a lot easier.
@@ -57,7 +72,7 @@
                                         alt="Logo of React.js">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="https://reactjs.org/">
+                                    <a href="https://reactjs.org/" target="blank">
                                         React.js
                                     </a>
                                 </h3>
@@ -143,6 +158,21 @@
                                     </a>
                                 </h3>
                             </div>
+                            <div class="technology-projects">
+                                <p>Previous projects:</p>
+                                <div class="projects-container">
+                                    <a href="https://infocast.senai.io/" target="blank">
+                                        <div class="technology-project">
+                                            <h3>SENAI InfoCast</h3>
+                                        </div>
+                                    </a>
+                                    <a target="blank">
+                                        <div class="technology-project">
+                                            <h3>WinWin</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
                                     Using <span class="font-weight-bold">C#</span> makes the web server development straight and extensible. This is a technology
@@ -193,7 +223,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="technology border-radius-4 d-flex flex-column align-center py-6">
+                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
                                     <img
@@ -215,7 +245,7 @@
                                     features.
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -258,6 +288,16 @@
                                         React Native
                                     </a>
                                 </h3>
+                            </div>
+                            <div class="technology-projects">
+                                <p>Previous projects:</p>
+                                <div class="projects-container">
+                                    <a target="blank">
+                                        <div class="technology-project">
+                                            <h3>WinWin</h3>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
@@ -307,6 +347,16 @@
                                         Xamarin.Forms
                                     </a>
                                 </h3>
+                            </div>
+                            <div class="technology-projects">
+                                <p>Previous projects:</p>
+                                <div class="projects-container">
+                                    <a target="blank">
+                                        <div class="technology-project">
+                                            <h3>WinWin</h3>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
@@ -421,8 +471,40 @@ export default {
                             }
                         }
                     }
+                    .technology-projects {
+                        align-self: stretch;
+                        margin: 0px nth($sizes, 6);
+                        margin-top: nth($sizes, 5);
+                        padding: nth($sizes, 4);
+                        border-radius: nth($sizes, 3);
+                        background-color: $primaryColor;
+                        & > p:nth-child(1) {
+                            margin-bottom: nth($sizes, 3);
+                            font-size: .8em;
+                            font-weight: bold;
+                            color: white;
+                            text-transform: uppercase;
+                        }
+                        .projects-container {
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: start;
+                            align-items: center;
+                            & > a {
+                                margin: nth($sizes, 2);
+                                .technology-project {
+                                    background-color: white;
+                                    padding: nth($sizes, 2) nth($sizes, 4);
+                                    border-radius: nth($sizes, 3);
+                                    & > h3 {
+                                        color: $primaryColor;
+                                    }
+                                }
+                            }
+                        }
+                    }
                     .technology-description {
-                        margin-top: nth($sizes, 6);
+                        margin-top: nth($sizes, 3);
                         p {
                             line-height: nth($sizes, 8);
                         }

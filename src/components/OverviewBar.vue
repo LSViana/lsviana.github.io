@@ -13,7 +13,7 @@
                     Lucas Viana
                 </h2>
                 <h4 class="role-names bold">
-                    <a href="https://en.wikipedia.org/wiki/Software_developer">Software Developer</a> and <a href="https://en.wikipedia.org/wiki/Gamer">Game Enthusiast</a>
+                    <a href="https://en.wikipedia.org/wiki/Software_developer" target="blank">Software Developer</a> and <a href="https://en.wikipedia.org/wiki/Gamer" target="blank">Game Enthusiast</a>
                 </h4>
             </div>
         </div>
@@ -28,7 +28,7 @@
             </div>
             <div class="social-media d-flex flex-column align-center mt-5">
                 <!-- TODO Fix this link -->
-                <a href="mailto:lv201122@gmail.com">
+                <a href="mailto:lv201122@gmail.com" target="blank">
                     <div class="facebook-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fas', 'at']" class="white--text" />
@@ -40,7 +40,7 @@
                     </div>
                 </a>
                 <!-- TODO Fix this link -->
-                <a href="https://www.linkedin.com/in/lsviana/">
+                <a href="https://www.linkedin.com/in/lsviana/" target="blank">
                     <div class="linkedin-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'linkedin-in']" class="white--text" />
@@ -52,7 +52,7 @@
                     </div>
                 </a>
                  <!-- TODO Fix this link -->
-                <a href="https://github.com/LSViana">
+                <a href="https://github.com/LSViana" target="blank">
                     <div class="github-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'github']" class="white--text" />
