@@ -15,7 +15,7 @@ export default {
 
 <style lang="scss">
 #app-root-container {
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
 }
 </style>

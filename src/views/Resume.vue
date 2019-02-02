@@ -35,8 +35,13 @@ export default {
     .resume-container {
         flex-direction: column !important;
         .overview-container {
-            min-width: 100vw;
+            min-width: 100%;
             border-right: unset;
+        }
+        .sessions-container {
+            flex: unset;
+            max-height: unset;
+            overflow-y: visible;
         }
     }
 }

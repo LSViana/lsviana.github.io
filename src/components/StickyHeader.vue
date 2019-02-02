@@ -34,6 +34,13 @@ export default {
     top: 0;
 }
 
+@media screen and (max-width: $mdToSm) {
+    .position-sticky {
+        position: relative;
+        top: 0;
+    }   
+}
+
 .header-row {
     z-index: 5;
     border-bottom: $primaryColor nth($sizes, 3) dashed;
