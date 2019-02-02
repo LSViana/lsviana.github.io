@@ -3,7 +3,7 @@
         <sticky-header number="I" title="Personal Overview" />
         <div class="intro-row pa-6">
             <p class="text-underline size-7 primary--text">
-                A Software Developer which has been loving this art since 2013, when I was just 12 y/0. Since back then, I found out my main goal is to improve people's routine through Software.
+                A Software Developer which has been loving this art since 2013, when he was just 12 y/0. Since back then, I found out my main goal is to improve people's routine through Software.
             </p>
         </div>
 
