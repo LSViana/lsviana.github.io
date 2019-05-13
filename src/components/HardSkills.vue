@@ -56,6 +56,11 @@
                                             <h3>Personal Résumé</h3>
                                         </div>
                                     </a>
+                                    <a href="https://trial-eventually-front.herokuapp.com" target="blank">
+                                        <div class="technology-project">
+                                            <h3>Eventually</h3>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div class="technology-description">
@@ -171,6 +176,16 @@
                                             <h3>WinWin</h3>
                                         </div>
                                     </a>
+                                    <a target="blank">
+                                        <div class="technology-project">
+                                            <h3>Speex</h3>
+                                        </div>
+                                    </a>
+                                    <a href="https://trial-eventually-front.herokuapp.com" target="blank">
+                                        <div class="technology-project">
+                                            <h3>Eventually</h3>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div class="technology-description">
@@ -186,66 +201,6 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="technology border-radius-4 d-flex flex-column align-center py-6">
-                            <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
-                                <div class="technology-logo primary pa-3 circular-border-radius">
-                                    <img
-                                        src="../assets/png/spring.png"
-                                        alt="Logo of Spring">
-                                </div>
-                                <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="https://spring.io/">
-                                        Spring
-                                    </a>
-                                </h3>
-                                <span class="size-8 mx-4">
-                                    +
-                                </span>
-                                <div class="technology-logo accent pa-4 circular-border-radius">
-                                    <img
-                                        src="../assets/png/hibernate.png"
-                                        alt="Logo of Hibernate">
-                                </div>
-                                <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="https://hibernate.org/">
-                                        Hibernate
-                                    </a>
-                                </h3>
-                            </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    <span class="font-weight-bold">Java</span> is also a known technology for, besides many other features, web server programming. Using
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">Spring</span>
-                                    I make it possible for you to have your solution. Hibernate takes place to connect your web server to
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">MySQL</span>
-                                    databases, and, it's worth highlighting, all the tools used in this stack are
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">open source</span>.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
-                            <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
-                                <div class="technology-logo primary pa-3 circular-border-radius">
-                                    <img
-                                        src="../assets/png/express-js.png"
-                                        alt="Logo of Express.js">
-                                </div>
-                                <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="https://expressjs.com/">
-                                        Express.js
-                                    </a>
-                                </h3>
-                            </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    This solution won't bring as much as performance as the other, but it has the facilities of using
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">JavaScript</span>
-                                    to build your web server, with all the giant community and
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">continuously developed</span>
-                                    features.
-                                </p>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -310,7 +265,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="technology border-radius-4 d-flex flex-column align-center py-6">
+                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo accent pa-3 circular-border-radius">
                                     <img
@@ -334,8 +289,8 @@
                                     language developed and maintained by the Mountain View's enterprise.
                                 </p>
                             </div>
-                        </div>
-                        <div class="technology border-radius-4 d-flex flex-column align-center py-6">
+                        </div> -->
+                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white pa-3 circular-border-radius">
                                     <img
@@ -368,7 +323,7 @@
                                     the development-cycle here will be slower, but as efficient and fast as the other tools.
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

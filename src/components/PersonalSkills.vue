@@ -41,6 +41,34 @@
                         This competition is organized by SENAI, each state (similar to province) of Brazil performs its own. I won this competition in the modality of Desktop Software Development taking a score <span class="accent--text bold size-6">56 points higher</span> than the 2nd place (in a range of 0-100)!
                     </p>
                 </div>
+                <div class="award-item">
+                    <div class="d-flex flex-row flex-wrap align-center">
+                        <fa-icon :icon="['fas', 'trophy']" class="size-8 accent--text" />
+                        <h2 class="mx-4 size-8 accent--text">
+                            Finalist
+                        </h2>
+                        <h3 class="award-title">
+                            <span>Americas Regional Finals</span>
+                            in
+                            <span class="award-competition-name">
+                                <a href="https://saopauloskills.sp.senai.br/" target="blank">
+                                    Microsoft Imagine Cup 2019
+                                </a>
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row flex-wrap">
+                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
+                            May, 2019
+                        </h5>
+                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
+                            Awarded in Microsoft Campus, Redmond, Washington
+                        </h5>
+                    </div>
+                    <p>
+                        As one of the members of <span class="accent--text bold size-6">Speex Team</span>, we were part of Imagine Cup 2019, organized by Microsoft to reunite competitors from the whole world to bring their innovative ideas for social, business and general good. We were one of the <span class="accent--text bold size-6">12 teams</span> selected from the whole America's continent.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="square-wave-white primary" />
@@ -320,6 +348,7 @@ export default {
 .awards-container {
     .awards-items {
         .award-item {
+            margin: nth($sizes, 4) 0px;
             color: white;
             .award-title {
                 margin: nth($sizes, 3) 0px;

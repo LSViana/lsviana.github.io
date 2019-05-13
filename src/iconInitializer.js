@@ -18,6 +18,7 @@ import {
     faFingerprint,
     faServer,
     faMobileAlt,
+    faTrophy
 } from '@fortawesome/free-solid-svg-icons'
 import {
     faLinkedinIn,
@@ -43,6 +44,7 @@ library.add(faCode)
 library.add(faFingerprint)
 library.add(faServer)
 library.add(faMobileAlt)
+library.add(faTrophy)
 
 library.add(faLinkedinIn)
 library.add(faGithub)
