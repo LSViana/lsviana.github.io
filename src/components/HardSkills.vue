@@ -82,6 +82,16 @@
                                     </a>
                                 </h3>
                             </div>
+                            <div class="technology-projects">
+                                <p>Previous projects:</p>
+                                <div class="projects-container">
+                                    <a href="https://trial-eventually-front.herokuapp.com" target="blank">
+                                        <div class="technology-project">
+                                            <h3>iDrones</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
                                     Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of facilities to build
@@ -186,6 +196,16 @@
                                             <h3>Eventually</h3>
                                         </div>
                                     </a>
+                                    <a target="blank">
+                                        <div class="technology-project">
+                                            <h3>COSOL</h3>
+                                        </div>
+                                    </a>
+                                    <a href="https://infocast.senai.io/" target="blank">
+                                        <div class="technology-project">
+                                            <h3>iDrones</h3>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div class="technology-description">
@@ -265,7 +285,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
+                        <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo accent pa-3 circular-border-radius">
                                     <img
@@ -289,7 +309,7 @@
                                     language developed and maintained by the Mountain View's enterprise.
                                 </p>
                             </div>
-                        </div> -->
+                        </div>
                         <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white pa-3 circular-border-radius">
