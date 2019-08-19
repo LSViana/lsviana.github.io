@@ -69,7 +69,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="technology border-radius-4 d-flex flex-column align-center py-6">
+                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
                                     <img
@@ -99,7 +99,7 @@
                                     <span class="primary white--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
@@ -251,7 +251,7 @@
                         </h3>
                     </div>
                     <div class="technologies-container">
-                        <div class="technology border-radius-4 d-flex flex-column align-center py-6">
+                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary circular-border-radius pa-3">
                                     <img
@@ -284,7 +284,7 @@
                                     <span class="font-weight-bold">Facebook</span> and brings your solution to a wide and friendly community.
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo accent pa-3 circular-border-radius">
@@ -297,6 +297,16 @@
                                         Flutter
                                     </a>
                                 </h3>
+                            </div>
+                            <div class="technology-projects">
+                                <p>Previous projects:</p>
+                                <div class="projects-container">
+                                    <a href="https://github.com/LSViana/mobile-coffee-app" target="blank">
+                                        <div class="technology-project">
+                                            <h3>Coffee App</h3>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
