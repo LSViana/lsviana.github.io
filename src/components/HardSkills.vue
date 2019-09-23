@@ -131,7 +131,7 @@
                             <div class="technology-projects">
                                 <p>Previous projects:</p>
                                 <div class="projects-container">
-                                    <a href="https://infocast.senai.io/" target="blank">
+                                    <a @click.prevent="showProjectDialog('infocast')" target="blank">
                                         <div class="technology-project">
                                             <h3>SENAI InfoCast</h3>
                                         </div>
@@ -156,7 +156,7 @@
                                             <h3>COSOL</h3>
                                         </div>
                                     </a>
-                                    <a href="https://infocast.senai.io/" target="blank">
+                                    <a href="" target="blank">
                                         <div class="technology-project">
                                             <h3>iDrones</h3>
                                         </div>
@@ -208,7 +208,7 @@
                     <div class="technologies-container">
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
-                                <div class="technology-logo accent pa-3 circular-border-radius">
+                                <div class="technology-logo white pa-3 circular-border-radius">
                                     <img
                                         src="../assets/png/flutter.png"
                                         alt="Logo of Flutter">
