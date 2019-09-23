@@ -5,7 +5,7 @@
         Project's Information
       </h3>
     </div>
-    <div class="my-3">
+    <div class="my-3 project-info-container">
       <component v-if="projectName" :is="'project-' + projectName" />
     </div>
     <div class="d-flex flex-row justify-end">
@@ -40,6 +40,10 @@ export default {
   }
   .close-button:hover {
     color: $accentColor;
+  }
+  .project-info-container {
+    max-height: 80vh;
+    overflow-y: auto;
   }
 }
 </style>
