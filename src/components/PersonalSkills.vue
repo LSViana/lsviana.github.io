@@ -4,7 +4,7 @@
         <div class="intro-row pa-6">
             <p class="text-underline size-7 primary--text">
                 A Software Developer which has been loving this art since 2013, when he was just 12 y/0.
-                Since back then, he found out his main goal is to improve people's routine through Software.
+                Since back then, he's been discovering how to make humans only what humans should do.
             </p>
         </div>
 
@@ -52,7 +52,7 @@
                             <span>Americas Regional Finals</span>
                             in
                             <span class="award-competition-name">
-                                <a href="https://saopauloskills.sp.senai.br/" target="blank">
+                                <a href="https://imaginecup.microsoft.com/en-us/Team/1243c298-1463-460d-b7bd-3450bbb8248d" target="blank">
                                     Microsoft Imagine Cup 2019
                                 </a>
                             </span>
@@ -68,6 +68,34 @@
                     </div>
                     <p>
                         As one of the members of <span class="accent--text bold size-6">Speex Team</span>, we were part of Imagine Cup 2019, organized by Microsoft to reunite competitors from the whole world to bring their innovative ideas for social, business and general good. We were one of the <span class="accent--text bold size-6">12 teams</span> selected from the whole America's continent.
+                    </p>
+                </div>
+                <div class="award-item">
+                    <div class="d-flex flex-row flex-wrap align-center">
+                        <fa-icon :icon="['fas', 'university']" class="size-8 accent--text" />
+                        <h2 class="mx-4 size-8 accent--text">
+                            Outstanding Student
+                        </h2>
+                        <h3 class="award-title">
+                            <span>Video Advertisement</span>
+                            in
+                            <span class="award-competition-name">
+                                <a href="https://www.youtube.com/watch?v=f5jvV2mVM08" target="blank">
+                                    Instituto Federal de São Paulo
+                                </a>
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row flex-wrap">
+                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
+                            October, 2016
+                        </h5>
+                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
+                            Presented a video advertisement for oncoming students
+                        </h5>
+                    </div>
+                    <p>
+                        Teachers from the IT area chose one student to talk about the school, based on grades and overall performance. I'm proud I could do that and be the one to share the word about our federal school.
                     </p>
                 </div>
             </div>
@@ -240,12 +268,6 @@
                         Natural Science
                     </p>
                 </div>
-                <div class="d-flex flex-column justify-center align-center">
-                    <fa-icon :icon="['fas', 'user-astronaut']" class="accent--text size-8" />
-                    <p class="text-uppercase size-6 font-weight-bold white--text">
-                        Astronomy
-                    </p>
-                </div>
             </div>
         </div>
         <div class="wavy-white primary" />
@@ -261,6 +283,7 @@ export default {
 
 <style lang="scss">
 @import '../styles/Variables.scss';
+
 .intro-row {
     & > p {
         line-height: 150%;
@@ -358,6 +381,11 @@ export default {
                     border-radius: nth($sizes, 3);
                     background: $accentColor;
                     color: $primaryColor;
+                }
+                .award-competition-name {
+                    a {
+                        border-bottom: nth($sizes, 2) dashed white;
+                    }
                 }
             }
         }

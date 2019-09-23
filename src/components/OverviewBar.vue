@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </a>
-                 <!-- TODO Fix this link -->
+                <!-- TODO Fix this link -->
                 <a href="https://github.com/LSViana" target="blank">
                     <div class="github-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
@@ -60,6 +60,17 @@
                         <div class="link-container ml-4">
                             <!-- TODO Fix this text -->
                             <p>github.com/LSViana</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://wa.me/5511959521889?text=Hello, I came from your résumé!" target="blank">
+                    <div class="github-media d-flex flex-row justify-center align-center">
+                        <div class="icon-container">
+                            <fa-icon :icon="['fab', 'whatsapp']" class="white--text" />
+                        </div>
+                        <div class="link-container ml-4">
+                            <!-- TODO Fix this text -->
+                            <p>+55 (11) 95952-1889</p>
                         </div>
                     </div>
                 </a>

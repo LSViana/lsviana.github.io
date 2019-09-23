@@ -18,12 +18,14 @@ import {
     faFingerprint,
     faServer,
     faMobileAlt,
-    faTrophy
+    faTrophy,
+    faUniversity
 } from '@fortawesome/free-solid-svg-icons'
 import {
     faLinkedinIn,
     faGithub,
     faNodeJs,
+    faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -45,9 +47,11 @@ library.add(faFingerprint)
 library.add(faServer)
 library.add(faMobileAlt)
 library.add(faTrophy)
+library.add(faUniversity)
 
 library.add(faLinkedinIn)
 library.add(faGithub)
 library.add(faNodeJs)
+library.add(faWhatsapp)
 
 Vue.component('fa-icon', FontAwesomeIcon)

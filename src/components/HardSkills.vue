@@ -56,7 +56,7 @@
                                             <h3>Personal Résumé</h3>
                                         </div>
                                     </a>
-                                    <a href="https://trial-eventually-front.herokuapp.com" target="blank">
+                                    <a @click.prevent="showProjectDialog('eventually')" target="blank">
                                         <div class="technology-project">
                                             <h3>Eventually</h3>
                                         </div>
@@ -69,37 +69,6 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
-                            <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
-                                <div class="technology-logo primary pa-3 circular-border-radius">
-                                    <img
-                                        src="../assets/png/react-js.png"
-                                        alt="Logo of React.js">
-                                </div>
-                                <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="https://reactjs.org/" target="blank">
-                                        React.js
-                                    </a>
-                                </h3>
-                            </div>
-                            <div class="technology-projects">
-                                <p>Previous projects:</p>
-                                <div class="projects-container">
-                                    <a href="https://trial-eventually-front.herokuapp.com" target="blank">
-                                        <div class="technology-project">
-                                            <h3>iDrones</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of facilities to build
-                                    websites highly customized, beautiful and interactive with the same tool which is
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
-                                </p>
-                            </div>
-                        </div> -->
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
@@ -251,40 +220,6 @@
                         </h3>
                     </div>
                     <div class="technologies-container">
-                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
-                            <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
-                                <div class="technology-logo primary circular-border-radius pa-3">
-                                    <img
-                                        src="../assets/png/react-native.png"
-                                        alt="Logo of React Native">
-                                </div>
-                                <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="https://facebook.github.io/react-native/">
-                                        React Native
-                                    </a>
-                                </h3>
-                            </div>
-                            <div class="technology-projects">
-                                <p>Previous projects:</p>
-                                <div class="projects-container">
-                                    <a target="blank">
-                                        <div class="technology-project">
-                                            <h3>WinWin</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    Building native mobile apps using JavaScript and the React.js component-model makes the mobile app
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">reliable</span>
-                                    and
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">fast to develop</span>.
-                                    This tool, similarly to <span class="font-weight-bold">React.js</span>, is supported by
-                                    <span class="font-weight-bold">Facebook</span> and brings your solution to a wide and friendly community.
-                                </p>
-                            </div>
-                        </div> -->
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo accent pa-3 circular-border-radius">
@@ -320,50 +255,28 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="technology border-radius-4 d-flex flex-column align-center py-6">
-                            <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
-                                <div class="technology-logo white pa-3 circular-border-radius">
-                                    <img
-                                        src="../assets/png/xamarin-forms.png"
-                                        alt="Logo of Xamarin.Forms">
-                                </div>
-                                <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/">
-                                        Xamarin.Forms
-                                    </a>
-                                </h3>
-                            </div>
-                            <div class="technology-projects">
-                                <p>Previous projects:</p>
-                                <div class="projects-container">
-                                    <a target="blank">
-                                        <div class="technology-project">
-                                            <h3>WinWin</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    Exposing a complete
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">cross-platform</span>
-                                    interface to manage native apps using C#, this tool is supported by
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Microsoft</span>.
-                                    The documentation is wide and this is useful if your app doesn't need many UI customization, because
-                                    the development-cycle here will be slower, but as efficient and fast as the other tools.
-                                </p>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
+        <fullscreen-dialog v-model="detailsDialog">
+            <project-dialog :projectName="'eventually'" @close="detailsDialog = false" />
+        </fullscreen-dialog>
     </div>
 </template>
 
 <script>
 export default {
-
+    data: () => ({
+        detailsDialog: true,
+        projectName: '',
+    }),
+    methods: {
+        showProjectDialog(projectName) {
+            this.detailsDialog = true
+            this.projectName = projectName
+        }
+    }
 }
 </script>
 
