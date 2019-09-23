@@ -41,7 +41,7 @@ export default {
     color: $accentColor;
   }
   .project-info-container {
-    max-height: 80vh;
+    max-height: 70vh;
     overflow-y: auto;
   }
 }
