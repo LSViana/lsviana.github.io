@@ -46,12 +46,12 @@
                             <div class="technology-projects">
                                 <p>Previous projects:</p>
                                 <div class="projects-container">
-                                    <a href="https://infocast.senai.io/" target="blank">
+                                    <a @click.prevent="showProjectDialog('infocast')" target="blank">
                                         <div class="technology-project">
                                             <h3>SENAI InfoCast</h3>
                                         </div>
                                     </a>
-                                    <a href="https://lsviana.github.io/" target="blank">
+                                    <a @click.prevent="showProjectDialog('resume')" target="blank">
                                         <div class="technology-project">
                                             <h3>Personal Résumé</h3>
                                         </div>
@@ -127,20 +127,6 @@
                                         ASP.NET Core
                                     </a>
                                 </h3>
-                                <span class="size-8 mx-4">
-                                    +
-                                </span>
-                                <div class="technology-logo white circular-border-radius pa-3 overflow-hidden">
-                                    <img
-                                        style="transform: scale(1.5)"
-                                        src="../assets/png/ef-core.png"
-                                        alt="Logo of Entity Framework Core">
-                                </div>
-                                <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
-                                    <a href="https://docs.microsoft.com/en-us/ef/core/">
-                                        Entity Framework Core
-                                    </a>
-                                </h3>
                             </div>
                             <div class="technology-projects">
                                 <p>Previous projects:</p>
@@ -160,7 +146,7 @@
                                             <h3>Speex</h3>
                                         </div>
                                     </a>
-                                    <a href="https://trial-eventually-front.herokuapp.com" target="blank">
+                                    <a @click.prevent="showProjectDialog('eventually')" target="blank">
                                         <div class="technology-project">
                                             <h3>Eventually</h3>
                                         </div>
@@ -260,7 +246,7 @@
             </div>
         </div>
         <fullscreen-dialog v-model="detailsDialog">
-            <project-dialog :projectName="'eventually'" @close="detailsDialog = false" />
+            <project-dialog :projectName="projectName" @close="detailsDialog = false" />
         </fullscreen-dialog>
     </div>
 </template>
@@ -268,7 +254,7 @@
 <script>
 export default {
     data: () => ({
-        detailsDialog: true,
+        detailsDialog: false,
         projectName: '',
     }),
     methods: {
@@ -289,10 +275,6 @@ export default {
             .development-technologies {
                 padding-right: nth($sizes, 4) !important;
                 padding-left: nth($sizes, 4) !important;
-                .technologies-container {
-                    .technology {
-                    }
-                }
             }
         }
     }

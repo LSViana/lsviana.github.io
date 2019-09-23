@@ -9,7 +9,7 @@
       <component v-if="projectName" :is="'project-' + projectName" />
     </div>
     <div class="d-flex flex-row justify-end">
-      <a href="" class="close-button text-uppercase bold font-weight-light white--text primary py-3 px-5 pointer size-6" @click.prevent="$emit('close')">
+      <a href="" class="close-button border-radius-3 text-uppercase bold font-weight-light white--text primary py-3 px-5 pointer size-6" @click.prevent="$emit('close')">
         Close
       </a>
     </div>    

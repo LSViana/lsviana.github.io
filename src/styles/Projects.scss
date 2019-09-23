@@ -1,0 +1,31 @@
+@import 'Variables.scss';
+
+.project-info-body {
+  & > div > div > p > span {
+    font-family: $boldFont;
+    color: $primaryColor;
+  }
+  & > div > div > p > span:last-child {
+    padding-right: 0px;
+  }
+  .project-images {
+    & > a {
+      @extend .ma-2;
+      @extend .border-radius-4;
+      width: 48%;
+      border: nth($sizes, 3) $accentColor dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & > div {
+        display: flex;
+      }
+      & img {
+        max-width: 100%;
+        width: auto;
+        height: 100%;
+        max-height: 200px;
+      }
+    }
+  }
+}
