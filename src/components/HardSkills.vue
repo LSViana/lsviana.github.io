@@ -136,7 +136,7 @@
                                             <h3>SENAI InfoCast</h3>
                                         </div>
                                     </a>
-                                    <a target="blank">
+                                    <a target="blank" @click.prevent="showProjectDialog('winwin')">
                                         <div class="technology-project">
                                             <h3>WinWin</h3>
                                         </div>
@@ -151,7 +151,7 @@
                                             <h3>Eventually</h3>
                                         </div>
                                     </a>
-                                    <a target="blank">
+                                    <a @click.prevent="showProjectDialog('cosol')" target="blank">
                                         <div class="technology-project">
                                             <h3>COSOL</h3>
                                         </div>
@@ -222,7 +222,7 @@
                             <div class="technology-projects">
                                 <p>Previous projects:</p>
                                 <div class="projects-container">
-                                    <a href="https://github.com/LSViana/mobile-coffee-app" target="blank">
+                                    <a @click="showProjectDialog('coffee-app')" target="blank">
                                         <div class="technology-project">
                                             <h3>Coffee App</h3>
                                         </div>
