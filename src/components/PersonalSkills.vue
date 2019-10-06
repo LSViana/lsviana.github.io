@@ -4,7 +4,7 @@
         <div class="intro-row pa-6">
             <p class="text-underline size-7 primary--text">
                 A Software Developer which has been loving this art since 2013, when he was just 12 y/0.
-                Since back then, he's been discovering how to make humans only what humans should do.
+                Since back then, he's been discovering how to make humans do only what humans should do.
             </p>
         </div>
 
