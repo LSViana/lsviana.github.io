@@ -31,7 +31,6 @@ export default {
 @import '../styles/Variables.scss';
 
 .project-dialog-root {
-  border: 4px $primaryColor dashed;
   border-radius: nth($sizes, 4);
   max-width: 90vw;
   width: 900px;

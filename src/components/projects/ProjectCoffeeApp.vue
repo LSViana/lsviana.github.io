@@ -23,7 +23,7 @@
           When Flutter first showed up at 2017, I couldn't study it very well because I was busy with React Native. But since back there I opened this door and built this pilot project to see how it'd go out.
         </p>
         <p class="mt-4">
-          It turns out that the <span>results</span> with Flutter <span>are great</span> and since it works for a wide range of purposes, I wouldn't try another framework to build mobile apps.
+          It turns out that the <span>results</span> with Flutter <span>are great</span> and since it works for a wide range of purposes, I wouldn't try another framework to build mobile apps but Flutter.
         </p>
       </div>
     </div>

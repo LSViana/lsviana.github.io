@@ -1,7 +1,7 @@
 <template>
     <div class="hard-skills">
         <sticky-header number="II" title="Hard Skills" />
-        <div class="development-areas pa-6">
+        <div class="development-areas pa-8">
             <h3 class="dark-gray--text">
                 For you or your business
                 <span class="accent--text primary px-4 py-2 border-radius-3 text-uppercase">I can build</span>:
@@ -233,10 +233,10 @@
                                 <p class="mx-6 dark-gray--text size-6">
                                     When you need great performance and a fast development process, this tool takes place.
                                     Made by                               
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">Google</span>,
+                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Google</span>,
                                     <span class="font-weight-bold">Flutter</span> brings a fresh community, organized Docs to work using
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">Dart</span>, a
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">compiled</span>
+                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Dart</span>, a
+                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">compiled</span>
                                     language developed and maintained by the Mountain View's enterprise.
                                 </p>
                             </div>
@@ -327,7 +327,6 @@ export default {
                 .technology {
                     margin: nth($sizes, 6) 0px;
                     background-color: white;
-                    border: nth($sizes, 3) $primaryColor dashed;
                     .technology-header {
                         color: $primaryColor;
                         & > * {
@@ -368,7 +367,7 @@ export default {
                         .projects-container {
                             display: flex;
                             flex-flow: row wrap;
-                            justify-content: start;
+                            justify-content: flex-start;
                             align-items: center;
                             & > a {
                                 margin: nth($sizes, 2);
@@ -384,7 +383,7 @@ export default {
                         }
                     }
                     .technology-description {
-                        margin-top: nth($sizes, 3);
+                        margin: nth($sizes, 5) 0;
                         p {
                             line-height: nth($sizes, 8);
                         }

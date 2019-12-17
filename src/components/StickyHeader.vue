@@ -1,5 +1,5 @@
 <template>
-    <div class="position-sticky header-row pa-5 d-flex flex-row align-center white">
+    <div class="position-sticky header-row pa-7 d-flex flex-row align-center white">
         <span
             class="header-title-marker accent--text size-7 primary d-flex flex-row justify-center align-center bold">
             {{number}}
@@ -37,7 +37,7 @@ export default {
 @media screen and (max-width: $mdToSm) {
     .position-sticky {
         position: relative;
-        top: 0;
+        top: unset;
     }   
 }
 

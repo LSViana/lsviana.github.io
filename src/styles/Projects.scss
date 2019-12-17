@@ -1,6 +1,9 @@
 @import 'Variables.scss';
 
 .project-info-body {
+  & > div > h3 {
+    margin: nth($sizes, 4) 0;
+  }
   & > div > div > p > span {
     font-family: $boldFont;
     color: $primaryColor;
@@ -13,10 +16,11 @@
       @extend .ma-2;
       @extend .border-radius-4;
       width: 48%;
-      border: nth($sizes, 3) $accentColor dashed;
+      background-color: #efefef;
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden;
       & > div {
         display: flex;
         justify-content: center;
@@ -28,6 +32,7 @@
         width: auto;
         height: 100%;
         max-height: 200px;
+        object-fit: cover;
       }
     }
   }

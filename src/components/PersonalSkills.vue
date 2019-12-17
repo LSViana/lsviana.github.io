@@ -1,7 +1,7 @@
 <template>
     <div class="personal-skills">
         <sticky-header number="I" title="Personal Overview" />
-        <div class="intro-row pa-6">
+        <div class="intro-row pa-8">
             <p class="text-underline size-7 primary--text">
                 A Software Developer which has been loving this art since 2013, when he was just 12 y/0.
                 Since back then, he's been discovering how to make humans do only what humans should do.
@@ -9,7 +9,7 @@
         </div>
 
         <div class="square-wave-primary" />
-        <div class="awards-container primary pa-6">
+        <div class="awards-container primary pa-8">
             <h3 class="white--text bold size-7 font-weight-light">
                 Awards:
             </h3>
@@ -95,19 +95,19 @@
                         </h5>
                     </div>
                     <p>
-                        Teachers from the IT area chose one student to talk about the school, based on grades and overall performance. I'm proud I could do that and be the one to share the word about our federal school.
+                        Teachers from the IT area chose one student to talk about the school, based on grades and overall performance. I'm proud I could do that and be the one to share the word about our Federal School.
                     </p>
                 </div>
             </div>
         </div>
         <div class="square-wave-white primary" />
-        <div class="education-container pa-6">
+        <div class="education-container pa-8">
             <h3 class="primary--text bold size-7 font-weight-light">
                 Education:
             </h3>
             <div class="education-timeline pl-4">
                 <div class="education-border-line" />
-                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
+                <div class="education-item d-flex flex-row align-stretch flex-nowrap my-4">
                     <div class="education-left-line" />
                     <div class="education-school-logo primary">
                         <img
@@ -139,7 +139,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
+                <div class="education-item d-flex flex-row align-stretch flex-nowrap my-4">
                     <div class="education-left-line" />
                     <div class="education-school-logo primary">
                         <img src="../assets/svg/if-purple.svg" alt="Instituto Federal de São Paulo's logo">
@@ -168,7 +168,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="education-item d-flex flex-row align-stretch flex-nowrap">
+                <div class="education-item d-flex flex-row align-stretch flex-nowrap my-4">
                     <div class="education-left-line" />
                     <div class="education-school-logo primary">
                         <img
@@ -334,6 +334,7 @@ export default {
                 margin-right: nth($sizes, 8);
                 margin-left: nth($sizes, 4);
                 flex-shrink: 0;
+                margin-top: nth($sizes, 4) * -1;
             }
             .education-item-description {
                 padding-top: nth($sizes, 4);
@@ -372,7 +373,7 @@ export default {
 .awards-container {
     .awards-items {
         .award-item {
-            margin: nth($sizes, 4) 0px;
+            margin: nth($sizes, 8) 0px;
             color: white;
             .award-title {
                 margin: nth($sizes, 3) 0px;

@@ -57,7 +57,7 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: $primaryDarkColor;
     height: nth($sizes, 3);
     width: 100%;
-    margin: nth($sizes, 5) 0px;
+    margin: nth($sizes, 5) 0;
     position: relative;
 }
 
