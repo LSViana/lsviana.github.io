@@ -68,7 +68,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://be.net/lucasvianas" target="blank">
+                <a href="be.net/lucasvianas" target="blank">
                     <div class="github-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'behance']" class="white--text" />
