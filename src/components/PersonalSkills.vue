@@ -25,6 +25,34 @@
                             in
                             <span class="award-competition-name">
                                 <a href="https://saopauloskills.sp.senai.br/" target="blank">
+                                    São Paulo Skills 2019
+                                </a>
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row flex-wrap">
+                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
+                            December, 2019
+                        </h5>
+                        <h5 class="award-date primary--text white py-3 px-4 border-radius-4 ma-2">
+                            Awarded in Escola SENAI de Informática
+                        </h5>
+                    </div>
+                    <p>
+                        Competing in another skill in this edition, I got the <span class="accent--text bold size-6">the highest grade</span> among competitors of SENAI Informática (the school I'm competing for). The next step is the National Phase! 🎉
+                    </p>
+                </div>
+                <div class="award-item">
+                    <div class="d-flex flex-row flex-wrap align-center">
+                        <fa-icon :icon="['fas', 'award']" class="size-8 accent--text" />
+                        <h2 class="mx-4 size-8 accent--text">
+                            1st
+                        </h2>
+                        <h3 class="award-title">
+                            <span>Statewide Champion</span>
+                            in
+                            <span class="award-competition-name">
+                                <a href="https://saopauloskills.sp.senai.br/" target="blank">
                                     São Paulo Skills 2017
                                 </a>
                             </span>
@@ -112,29 +140,29 @@
                     <div class="education-school-logo primary">
                         <img
                             style="filter: hue-rotate(-15deg)"
-                            src="../assets/jpg/senai-purple.jpeg"
+                            src="../assets/svg/univesp-purple.svg"
                             alt="Escola SENAI de Informática's logo">
                     </div>
                     <div class="education-item-description">
                         <div class="education-title">
                             <p class="size-7 font-weight-light primary--text">
-                                <span>Software and Hardware Assistant</span>
+                                <span>Bachelor of Computer Science</span>
                                 in
                                 <span class="education-school font-weight-bold">
-                                    <a href="https://informatica.sp.senai.br/" target="blank">
-                                        Escola SENAI de Informática
+                                    <a href="https://univesp.br/" target="blank">
+                                        Universidade Virtual do Estado de São Paulo
                                     </a>
                                 </span>
                             </p>
                         </div>
                         <div class="education-date">
                             <p class="bold size-6">
-                                2016-2016
+                                2020-2023
                             </p>
                         </div>
                         <div class="education-description size-6">
                             <p>
-                                I learned loving software by my own, but if I couldn't handle my hardware to support such a good software I'd not survive. As a student, it was one of the best places I could ever choose to study!
+                                This course is offered by <strong>USP</strong>, <strong>UNICAMP</strong> and <strong>UNIFESP</strong> teachers in a distance education modality. This allows students like me to make the most out of their time while still having access to other people interested in the same subjects (like software development for web and desktop, database management, <i>et cetera</i>)!
                             </p>
                         </div>
                     </div>
@@ -168,6 +196,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="education-item d-flex flex-row align-stretch flex-nowrap my-4">
                     <div class="education-left-line" />
                     <div class="education-school-logo primary">
@@ -196,6 +225,38 @@
                         <div class="education-description size-6">
                             <p>
                                 Here I could dive in some new technologies and improve the major concepts about programming, which I started developing on my own since I was 12 y/o. At this course I learned about desktop, web and mobile software development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-item d-flex flex-row align-stretch flex-nowrap my-4">
+                    <div class="education-left-line" />
+                    <div class="education-school-logo primary">
+                        <img
+                            style="filter: hue-rotate(-15deg)"
+                            src="../assets/jpg/senai-purple.jpeg"
+                            alt="Escola SENAI de Informática's logo">
+                    </div>
+                    <div class="education-item-description">
+                        <div class="education-title">
+                            <p class="size-7 font-weight-light primary--text">
+                                <span>Software and Hardware Assistant</span>
+                                in
+                                <span class="education-school font-weight-bold">
+                                    <a href="https://informatica.sp.senai.br/" target="blank">
+                                        Escola SENAI de Informática
+                                    </a>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="education-date">
+                            <p class="bold size-6">
+                                2016-2016
+                            </p>
+                        </div>
+                        <div class="education-description size-6">
+                            <p>
+                                I learned loving software by my own, but if I couldn't handle my hardware to support such a good software I'd not survive. As a student, it was one of the best places I could ever choose to study!
                             </p>
                         </div>
                     </div>
