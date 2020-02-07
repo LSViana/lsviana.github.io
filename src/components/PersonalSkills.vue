@@ -147,7 +147,7 @@
                     <div class="education-item-description">
                         <div class="education-title">
                             <p class="size-7 font-weight-light primary--text">
-                                <span>Software Development Technical</span>
+                                <span>Software Development Technician</span>
                                 in
                                 <span class="education-school font-weight-bold">
                                     <a href="https://spo.ifsp.edu.br/" target="blank">
@@ -179,7 +179,7 @@
                     <div class="education-item-description">
                         <div class="education-title">
                             <p class="size-7 font-weight-light primary--text">
-                                <span>Software Development Technical</span>
+                                <span>Software Development Technician</span>
                                 in
                                 <span class="education-school font-weight-bold">
                                     <a href="https://informatica.sp.senai.br/" target="blank">

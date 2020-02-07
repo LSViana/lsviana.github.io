@@ -26,6 +26,7 @@ import {
     faGithub,
     faNodeJs,
     faWhatsapp,
+    faBehance,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -53,5 +54,6 @@ library.add(faLinkedinIn)
 library.add(faGithub)
 library.add(faNodeJs)
 library.add(faWhatsapp)
+library.add(faBehance)
 
 Vue.component('fa-icon', FontAwesomeIcon)

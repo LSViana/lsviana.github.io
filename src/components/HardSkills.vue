@@ -32,6 +32,49 @@
                     <div class="technologies-container">
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
+                                <div class="technology-logo primary pa-3 circular-border-radius">
+                                    <img
+                                        src="../assets/png/react-js.png"
+                                        alt="Logo of React.js">
+                                </div>
+                                <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
+                                    <a href="https://reactjs.org/" target="blank">
+                                        React.js
+                                    </a>
+                                </h3>
+                            </div>
+                            <div class="technology-projects">
+                                <p>Previous projects:</p>
+                                <div class="projects-container">
+                                    <a target="blank">
+                                        <div class="technology-project">
+                                            <h3>iDrones</h3>
+                                        </div>
+                                    </a>
+                                    <a target="blank" href="https://lsviana.github.io/digitalk-test/">
+                                        <div class="technology-project">
+                                            <h3>Pokedéx</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="technology-description">
+                                <p class="mx-6 dark-gray--text size-6">
+                                    Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of facilities to build
+                                    websites highly customized, beautiful and interactive with the same tool which is
+                                    <span class="primary white--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
+                                </p>
+                                <p class="mx-6 dark-gray--text size-6">
+                                    I've worked on previous projects using <span class="font-weight-bold">React.js</span> and other very opinionated libraries, like
+                                    <span class="primary white--text px-3 py-2 bold border-radius-3">Redux</span>, <span class="primary white--text px-3 py-2 bold border-radius-3">React Router DOM</span> and <span class="primary white--text px-3 py-2 bold border-radius-3">React Spring</span>.
+                                </p>
+                                <p class="mx-6 dark-gray--text size-6">
+                                    I'm available to use this technology right away to create web apps for your business.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="technology border-radius-4 d-flex flex-column align-center py-6">
+                            <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white pa-4 pt-5 circular-border-radius">
                                     <img
                                         src="../assets/png/vue-js.png"
@@ -66,6 +109,9 @@
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
                                     This is a reactive framework for developing websites, it was used to develop <span class="primary accent--text px-3 py-2 bold border-radius-3">this</span> résumé and, I can say it personally, it made the task a lot easier.
+                                </p>
+                                <p class="mx-6 dark-gray--text size-6">
+                                    I'm available to use this technology right away to create web apps for your business.
                                 </p>
                             </div>
                         </div>
@@ -384,6 +430,7 @@ export default {
                     }
                     .technology-description {
                         margin: nth($sizes, 5) 0;
+                        width: 100%;
                         p {
                             line-height: nth($sizes, 8);
                         }

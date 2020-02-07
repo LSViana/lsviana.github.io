@@ -27,7 +27,6 @@
                 </h3>
             </div>
             <div class="social-media d-flex flex-column align-center mt-5">
-                <!-- TODO Fix this link -->
                 <a href="mailto:lv201122@gmail.com" target="blank">
                     <div class="facebook-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
@@ -39,26 +38,22 @@
                         </div>
                     </div>
                 </a>
-                <!-- TODO Fix this link -->
                 <a href="https://www.linkedin.com/in/lsviana/" target="blank">
                     <div class="linkedin-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'linkedin-in']" class="white--text" />
                         </div>
                         <div class="link-container ml-4">
-                            <!-- TODO Fix this text -->
                             <p>linkedin.com/in/lsviana/</p>
                         </div>
                     </div>
                 </a>
-                <!-- TODO Fix this link -->
                 <a href="https://github.com/LSViana" target="blank">
                     <div class="github-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'github']" class="white--text" />
                         </div>
                         <div class="link-container ml-4">
-                            <!-- TODO Fix this text -->
                             <p>github.com/LSViana</p>
                         </div>
                     </div>
@@ -69,8 +64,17 @@
                             <fa-icon :icon="['fab', 'whatsapp']" class="white--text" />
                         </div>
                         <div class="link-container ml-4">
-                            <!-- TODO Fix this text -->
                             <p>+55 (11) 95952-1889</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://be.net/lucasvianas" target="blank">
+                    <div class="github-media d-flex flex-row justify-center align-center">
+                        <div class="icon-container">
+                            <fa-icon :icon="['fab', 'behance']" class="white--text" />
+                        </div>
+                        <div class="link-container ml-4">
+                            <p>be.net/lucasvianas</p>
                         </div>
                     </div>
                 </a>
