@@ -3,7 +3,7 @@
         <sticky-header number="I" title="Personal Overview" />
         <div class="intro-row pa-8">
             <p class="text-underline size-7 primary--text">
-                A Software Developer which has been loving this art since 2013, when he was just 12 y/0.
+                A Software Developer which has been loving this art since 2013, when he was just 12 y/o.
                 Since back then, he's been discovering how to make humans do only what humans should do.
             </p>
         </div>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a161fcc-4717-440f-a69a-d7ad8ce57c26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/v1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/winwin/winwinlogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lv-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lv-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projects/winwin/winwinlogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jpg/Vue.js_Logo_2.svg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jpg/if-green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jpg/senai-purple.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/asp-net-core.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/ef-core.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/express-js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/flutter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/hibernate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/lv-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/react-js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/react-native.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/spring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/vue-js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/png/xamarin-forms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/if-purple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/lv-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/signature.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/square-wave-primary.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/square-wave-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/univesp-purple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FullscreenDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HardSkills.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverviewBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PersonalSkills.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StickyHeader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectCoffeeApp.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectCosol.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectEventually.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectInfocast.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectResume.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectWinwin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iconInitializer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/General.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Projects.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Resume.vue" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aOhmlOu3ZfSNe1OPFW2hMRobgo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/v2/personal-resume" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Lucas Viana\Development\javascript\lsviana.github.io\v1" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a161fcc-4717-440f-a69a-d7ad8ce57c26" name="Default Changelist" comment="" />
+      <created>1586612708310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586612708310</updated>
+      <workItem from="1586612718438" duration="119000" />
+      <workItem from="1586618322302" duration="654000" />
+      <workItem from="1586621285528" duration="453000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1586622571675">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586622571675" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1586618681249">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586618681249" />
+  </component>
+</project>

@@ -62,11 +62,11 @@
                                 <p class="mx-6 dark-gray--text size-6">
                                     Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of facilities to build
                                     websites highly customized, beautiful and interactive with the same tool which is
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
+                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
                                 </p>
                                 <p class="mx-6 dark-gray--text size-6">
                                     I've worked on previous projects using <span class="font-weight-bold">React.js</span> and other very opinionated libraries, like
-                                    <span class="primary white--text px-3 py-2 bold border-radius-3">Redux</span>, <span class="primary white--text px-3 py-2 bold border-radius-3">React Router DOM</span> and <span class="primary white--text px-3 py-2 bold border-radius-3">React Spring</span>.
+                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Redux</span>, <span class="primary accent--text px-3 py-2 bold border-radius-3">React Router DOM</span> and <span class="primary accent--text px-3 py-2 bold border-radius-3">React Spring</span>.
                                 </p>
                                 <p class="mx-6 dark-gray--text size-6">
                                     I'm available to use this technology right away to create web apps for your business.

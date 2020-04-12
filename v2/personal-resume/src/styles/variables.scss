@@ -1,0 +1,126 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+// Colors
+$primaryColor: #4e38e0;
+$accentColor: #12bcff;
+$darkestGray: #212121;
+$darkerGray: #333333;
+$darkGray: #4d4d4d;
+$textColor: white;
+
+// Filters and effects
+$opacity40: .4;
+
+// Sizes
+$sizes: (.25rem, .5rem, .75rem, 1rem, 1.5rem, 2rem, 3rem, 4rem, 6rem, 8rem);
+$multiplier: 1;
+
+@for $i from 1 through length($sizes) {
+  .ma-#{$i} {
+    margin: $multiplier * nth($sizes, $i);
+  }
+  .mb-#{$i} {
+    margin-bottom: $multiplier * nth($sizes, $i);
+  }
+  .mt-#{$i} {
+    margin-top: $multiplier * nth($sizes, $i);
+  }
+  .ml-#{$i} {
+    margin-left: $multiplier * nth($sizes, $i);
+  }
+  .mr-#{$i} {
+    margin-right: $multiplier * nth($sizes, $i);
+  }
+  .mx-#{$i} {
+    margin-left: $multiplier * nth($sizes, $i);
+    margin-right: $multiplier * nth($sizes, $i);
+  }
+  .my-#{$i} {
+    margin-top: $multiplier * nth($sizes, $i);
+    margin-bottom: $multiplier * nth($sizes, $i);
+  }
+  .mb-n#{$i} {
+    margin-bottom: $multiplier * nth($sizes, $i) * -1;
+  }
+  .mt-n#{$i} {
+    margin-top: $multiplier * nth($sizes, $i) * -1;
+  }
+  .ml-n#{$i} {
+    margin-left: $multiplier * nth($sizes, $i) * -1;
+  }
+  .mr-n#{$i} {
+    margin-right: $multiplier * nth($sizes, $i) * -1;
+  }
+  .ma-n#{$i} {
+    margin: $multiplier * nth($sizes, $i) * -1;
+  }
+  .mx-n#{$i} {
+    margin-left: $multiplier * nth($sizes, $i) * -1;
+    margin-right: $multiplier * nth($sizes, $i) * -1;
+  }
+  .my-n#{$i} {
+    margin-top: $multiplier * nth($sizes, $i) * -1;
+    margin-bottom: $multiplier * nth($sizes, $i) * -1;
+  }
+
+  .pa-#{$i} {
+    padding: $multiplier * nth($sizes, $i);
+  }
+  .pb-#{$i} {
+    padding-bottom: $multiplier * nth($sizes, $i);
+  }
+  .pt-#{$i} {
+    padding-top: $multiplier * nth($sizes, $i);
+  }
+  .pl-#{$i} {
+    padding-left: $multiplier * nth($sizes, $i);
+  }
+  .pr-#{$i} {
+    padding-right: $multiplier * nth($sizes, $i);
+  }
+  .px-#{$i} {
+    padding-left: $multiplier * nth($sizes, $i);
+    padding-right: $multiplier * nth($sizes, $i);
+  }
+  .py-#{$i} {
+    padding-top: $multiplier * nth($sizes, $i);
+    padding-bottom: $multiplier * nth($sizes, $i);
+  }
+  .pb-n#{$i} {
+    padding-bottom: $multiplier * nth($sizes, $i) * -1;
+  }
+  .pt-n#{$i} {
+    padding-top: $multiplier * nth($sizes, $i) * -1;
+  }
+  .pl-n#{$i} {
+    padding-left: $multiplier * nth($sizes, $i) * -1;
+  }
+  .pr-n#{$i} {
+    padding-right: $multiplier * nth($sizes, $i) * -1;
+  }
+  .pa-n#{$i} {
+    padding: $multiplier * nth($sizes, $i) * -1;
+  }
+  .px-n#{$i} {
+    padding-left: $multiplier * nth($sizes, $i) * -1;
+    padding-right: $multiplier * nth($sizes, $i) * -1;
+  }
+  .py-n#{$i} {
+    padding-top: $multiplier * nth($sizes, $i) * -1;
+    padding-bottom: $multiplier * nth($sizes, $i) * -1;
+  }
+}
+
+// Breakpoints
+$extraLg: 2160px;
+$lg: 1920px;
+$mdToLg: 1366px;
+$md: 768px;
+$sm: 480px;
+
+// Times
+$fast: .2s;
+$regular: .4s;
+$slow: .7s;

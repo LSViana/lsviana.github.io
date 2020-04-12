@@ -1,0 +1,338 @@
+@import './variables';
+
+// Pieces
+@mixin positioned-fill {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+// General styles for all sections
+body {
+  transition: opacity $fast;
+  opacity: 1 !important;
+}
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+  padding: calc((#{nth($sizes, 8)} + 12vw) * .5) calc(#{nth($sizes, 8)} + 12vw);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+
+  > * {
+    z-index: 1;
+  }
+
+  @media (max-width: $md) {
+    padding: calc(#{nth($sizes, 6)} + 9vw) calc(#{nth($sizes, 4)} + 6vw);
+  }
+
+  // Texts
+  > p {
+    text-align: justify;
+
+    a {
+      @extend .text-anchor;
+    }
+  }
+
+  // Background colors
+  &:nth-child(2n + 1) {
+    background-color: $primaryColor;
+  }
+
+  &:nth-child(2n) {
+    background-color: $accentColor;
+  }
+
+  &::after {
+    @include positioned-fill;
+
+    background-image: linear-gradient(to bottom, $darkerGray, $darkestGray);
+    width: 80%;
+    left: 10%;
+    top: -3%;
+    height: 103%;
+    border-radius: nth($sizes, 6);
+    z-index: 0;
+
+    @media (max-width: $md) {
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  // Media
+  .image {
+    margin-top: calc(#{nth($sizes, 3)} + 1.5vw);
+    margin-bottom: calc(#{nth($sizes, 3)} + 1.5vw);
+
+    &.big {
+      img {
+        border-radius: nth($sizes, 1);
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    p {
+      @extend .caption;
+
+      &:first-child {
+        display: flex;
+        @extend .mb-3;
+
+        position: relative;
+
+        &::after {
+          @include positioned-fill;
+
+          background-color: $primaryColor;
+          border-radius: nth($sizes, 1);
+          z-index: 0;
+        }
+
+        img {
+          position: relative;
+          z-index: 1;
+          transition: transform $fast;
+
+          &:hover {
+            filter: brightness(1.1);
+            transform: translate(nth($sizes, 4), nth($sizes, 4) * -1);
+          }
+        }
+      }
+
+      a {
+        @extend .text-anchor;
+      }
+    }
+  }
+}
+
+// Images
+img, svg {
+  z-index: 1;
+}
+
+.circular-button {
+  position: relative;
+
+  path, circle {
+    transition: fill $fast;
+  }
+
+  &::after {
+    @include positioned-fill;
+
+    opacity: $opacity40;
+    padding-bottom: 100%;
+    height: 0;
+    transform: scale(0);
+    background-color: $accentColor;
+    border-radius: 50%;
+    transition: transform $fast;
+  }
+
+  &:hover {
+
+    &::after {
+      transform: scale(1.75);
+    }
+
+    path, circle {
+      fill: $accentColor !important;
+    }
+  }
+}
+
+.bordered-image {
+  position: relative;
+
+  p {
+    display: flex;
+  }
+
+  &::after {
+    @include positioned-fill;
+
+    top: calc((#{nth($sizes, 2)} + .5vw) * -1);
+    left: calc((#{nth($sizes, 2)} + .5vw) * -1);
+    border-radius: 50%;
+    border: calc(#{nth($sizes, 2)} + .5vw) solid $accentColor;
+  }
+
+  &::before {
+    @include positioned-fill;
+
+    border-radius: 50%;
+    border: 0 solid $primaryColor;
+    opacity: $opacity40;
+    transition: border-width $fast, top $fast, left $fast;
+  }
+
+  &:hover::before {
+    border-width: nth($sizes, 4);
+    top: nth($sizes, 4) * -1;
+    left: nth($sizes, 4) * -1;
+  }
+}
+
+// Texts
+.badge {
+  @extend .px-5;
+  @extend .py-1;
+  @extend .caption;
+  @extend .single-line;
+  @extend .font-weight-normal;
+
+  background-color: $darkGray;
+  border-radius: #{1e10}px;
+  color: $accentColor;
+  max-width: 60vw;
+}
+
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badges {
+  display: flex;
+  flex-flow: row wrap;
+  margin: nth($sizes, 1) * -1;
+
+  > * {
+    margin: nth($sizes, 1);
+  }
+
+  p {
+    @extend .badge;
+
+    display: flex;
+  }
+}
+
+.caption {
+  font-size: calc(#{nth($sizes, 3)} + .5vw);
+  line-height: calc(#{nth($sizes, 4)} + .75vw);
+}
+
+.header-link {
+  border-bottom: nth($sizes, 1) solid transparent;
+  border-image: linear-gradient(to right, $primaryColor, $accentColor) 1 stretch;
+  background-image: linear-gradient(to right, $primaryColor 0, $accentColor 50%);
+  background-size: 100% 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+.wavy-underline {
+  background-image: url('/assets/svg/themed-border-bottom.svg');
+  background-repeat: repeat-x;
+  background-size: 20% 180%;
+  background-position: left top;
+  transition: background-position $fast;
+
+  &:hover {
+    background-position-x: nth($sizes, 6);
+  }
+}
+
+.font-weight-lighter {
+  font-weight: lighter;
+}
+
+.font-weight-normal {
+  font-weight: 600;
+}
+
+p {
+  font-size: calc(#{nth($sizes, 4)} + .75vw);
+  line-height: calc(#{nth($sizes, 5)} + 1vw);
+}
+
+.text-anchor {
+  @extend .font-weight-normal;
+
+  display: inline-block;
+  background-image: linear-gradient(to right, $primaryColor, $accentColor);
+  background-size: 120% 10%;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  transition: background-size $fast;
+
+  &:hover {
+    background-size: 100% 100%;
+  }
+}
+
+h1 {
+  font-size: calc(#{nth($sizes, 4)} + 6vw);
+  font-weight: 300;
+  font-family: Staatliches, Quicksand, sans-serif;
+}
+
+h2 {
+  font-size: calc(#{nth($sizes, 3)} + 3vw);
+}
+
+h3 {
+  @extend .font-weight-normal;
+
+  font-size: calc(#{nth($sizes, 3)} + 2vw);
+  text-transform: uppercase;
+}
+
+h4 {
+  @extend .font-weight-normal;
+
+  font-size: calc(#{nth($sizes, 3)} + 1.75vw);
+}
+
+// Buttons
+.button {
+  @extend .px-3;
+  @extend .py-2;
+
+  background-color: $darkerGray;
+  border-radius: nth($sizes, 1);
+  transition: background-color $fast;
+  position: relative;
+
+  &::after {
+    @include positioned-fill;
+
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-color: $accentColor;
+    border-width: 0;
+    border-radius: nth($sizes, 3);
+    opacity: $opacity40;
+    transition: top $fast, left $fast, border-width $fast;
+  }
+
+  &:hover {
+    background-color: $accentColor;
+
+    &::after {
+      top: nth($sizes, 2) * -1;
+      left: nth($sizes, 2) * -1;
+      border-width: nth($sizes, 2);
+      z-index: 1;
+    }
+  }
+}

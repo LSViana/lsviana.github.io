@@ -1,0 +1,18 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quicksand, Calibri, sans-serif;
+
+  &::selection {
+    color: $primaryColor;
+    background-color: $accentColor;
+  }
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
