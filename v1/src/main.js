@@ -27,6 +27,6 @@ new Vue({
         }
     },
     data: () => ({
-        dark: true
+        dark: false
     })
 }).$mount('#app')
