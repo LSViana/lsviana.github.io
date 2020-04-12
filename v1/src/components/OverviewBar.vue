@@ -80,16 +80,32 @@
                     </div>
                 </a>
             </div>
+            <div class="brightness-switch" @click="$root.updateDark(!dark)">
+                <div class="brightness-icon">
+                    <fa-icon :icon="['fas', 'moon']"/>
+                    <fa-icon :icon="['fas', 'sun']"/>
+                </div>
+                <p>
+                    {{ dark ? 'Light' : 'Dark' }}
+                </p>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-    export default {}
+    export default {
+        computed: {
+            dark() {
+                return this.$root.$data.dark
+            }
+        }
+    }
 </script>
 
 <style lang="scss">
     @import '../styles/Variables.scss';
+    @import '../styles/App.scss';
 
     .overview-container {
         overflow-x: hidden;
@@ -133,6 +149,40 @@
             background-color: white;
             flex: 1;
             position: relative;
+
+            .brightness-switch {
+                @extend %select-none;
+                @extend .mt-4;
+                @extend .d-flex;
+                @extend .justify-center;
+                @extend .align-center;
+                @extend .primary;
+                @extend .white--text;
+                @extend %border-radius;
+                @extend .px-5;
+                @extend .py-3;
+                cursor: pointer;
+
+                .brightness-icon {
+                    @extend .d-flex;
+                    @extend .flex-column;
+                    position: relative;
+
+                    svg {
+                        transition: transform $shortTime;
+
+                        &:nth-child(2) {
+                            position: absolute;
+                            top: 150%;
+                        }
+                    }
+
+                }
+
+                > p {
+                    @extend .ml-5;
+                }
+            }
 
             .oblique-divider {
                 transform: rotate(-2.5deg) translateY(nth($sizes, 6) * -1);

@@ -1,34 +1,30 @@
 import Vue from 'vue'
-import { library } from '@fortawesome/fontawesome-svg-core'
+import {library} from '@fortawesome/fontawesome-svg-core'
 import {
     faAt,
-    faBicycle,
-    faFutbol,
-    faCodeBranch,
-    faDraftingCompass,
-    faMagic,
-    faGamepad,
-    faVrCardboard,
-    faSuperscript,
-    faDove,
-    faUserAstronaut,
     faAward,
-    faGlobe,
+    faBicycle,
     faCode,
+    faCodeBranch,
+    faDove,
+    faDraftingCompass,
     faFingerprint,
-    faServer,
+    faFutbol,
+    faGamepad,
+    faGlobe,
+    faMagic,
     faMobileAlt,
+    faMoon,
+    faServer,
+    faSun,
+    faSuperscript,
     faTrophy,
-    faUniversity
+    faUniversity,
+    faUserAstronaut,
+    faVrCardboard
 } from '@fortawesome/free-solid-svg-icons'
-import {
-    faLinkedinIn,
-    faGithub,
-    faNodeJs,
-    faWhatsapp,
-    faBehance,
-} from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import {faBehance, faGithub, faLinkedinIn, faNodeJs, faWhatsapp} from '@fortawesome/free-brands-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
 library.add(faAt)
 library.add(faBicycle)
@@ -43,6 +39,8 @@ library.add(faDove)
 library.add(faUserAstronaut)
 library.add(faAward)
 library.add(faGlobe)
+library.add(faMoon)
+library.add(faSun)
 library.add(faCode)
 library.add(faFingerprint)
 library.add(faServer)

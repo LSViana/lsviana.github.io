@@ -10,9 +10,11 @@
 
 <script>
     export default {
-        data: () => ({
-            dark: true
-        })
+        computed: {
+            dark() {
+                return this.$root.$data.dark
+            }
+        }
     }
 </script>
 

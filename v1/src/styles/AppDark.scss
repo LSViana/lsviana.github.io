@@ -25,13 +25,17 @@
     }
   }
 
-  .header-row, .intro-row, .development-areas {
+  .header-row, .intro-row {
     * {
       color: $darkTextColor;
     }
   }
 
   .development-areas {
+    h3 {
+      color: $darkTextColor;
+    }
+
     .development-area {
       border-color: $darkBackgroundColor;
 
@@ -55,6 +59,11 @@
         }
       }
 
+      .development-purpose {
+        p {
+          color: $darkTextColor;
+        }
+      }
 
       .development-technologies {
         background-color: $darkBackgroundColor;
@@ -64,17 +73,35 @@
 
           .technology-header {
             h3 {
+              color: $darkTextColor;
+
               a {
+                color: $darkTextColor;
                 border-bottom-color: $darkTextColor;
               }
+            }
+
+            .technology-logo {
+              background-color: $darkTextColor;
             }
           }
 
           .technology-projects {
             background-color: $darkBackgroundColor;
 
-            h3 {
-              color: $primaryColor;
+            .technology-project {
+              background-color: $darkestBackgroundColor;
+
+              h3 {
+                color: $accentColor;
+              }
+            }
+          }
+
+          .technology-description {
+
+            p {
+              color: $darkTextColor;
             }
           }
         }
@@ -94,6 +121,28 @@
 
       .contact-container {
         background-color: $darkestBackgroundColor;
+
+        > .oblique-divider {
+          background-color: $darkestBackgroundColor;
+        }
+
+        .brightness-switch {
+          background-color: $darkBackgroundColor;
+          color: $accentColor;
+          overflow: hidden;
+
+          svg {
+            color: $accentColor;
+
+            &:nth-child(1) {
+              transform: translateY(-150%);
+            }
+
+            &:nth-child(2) {
+              transform: translateY(-150%);
+            }
+          }
+        }
 
         .social-media {
           a > div:hover {
@@ -123,12 +172,25 @@
     background-color: $darkBackgroundColor;
   }
 
-  .award-date {
-    background-color: $primaryColor;
-    color: $darkTextColor;
+  .awards-container {
+    .award-title {
+      span:first-child {
+        background-color: $accentColor;
+        color: $darkBackgroundColor;
+      }
+    }
+
+    .award-date {
+      background-color: $darkestBackgroundColor;
+      color: $accentColor;
+    }
   }
 
   .education-container {
+    h3 {
+      color: $darkTextColor;
+    }
+
     .education-item {
       .education-title {
         p {
@@ -187,6 +249,40 @@
 
     &::after {
       background-image: radial-gradient(circle at 10px 15px, $darkestBackgroundColor 12px, transparent 13px);
+    }
+  }
+
+  .dialog-root {
+    .project-dialog-root {
+      background-color: $darkBackgroundColor;
+
+      h2 {
+        color: $darkTextColor;
+      }
+
+      .project-info-body {
+        h3 {
+          color: $darkTextColor;
+        }
+
+        div {
+          p {
+            color: $darkTextColor;
+
+            span {
+              @extend .size-6;
+
+              color: $accentColor;
+            }
+          }
+        }
+
+        .project-images {
+          > a {
+            background-color: $darkestBackgroundColor;
+          }
+        }
+      }
     }
   }
 }

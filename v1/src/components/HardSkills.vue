@@ -15,8 +15,8 @@
                         Web Sites <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// and yours will be even more beautiful than this one, yeah?</span>
                     </h3>
                 </div>
-                <div class="development-purpose mt-8 ma-6 px-7 d-flex flex-column justify-center align-center">
-                    <p class="dark-gray--text size-6 ma-3 line-height-8">
+                <div class="development-purpose px-7 d-flex flex-column justify-center align-center">
+                    <p class="dark-gray--text size-6 ma-3">
                         Creating websites is the easiest way to <span
                             class="primary white--text px-4 py-3 border-radius-3">get closer to your customers or target audience</span>.
                         From simple ones until the complex e-commerces, I can help you making your dreams come true!
@@ -130,7 +130,7 @@
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
-                                    <fa-icon :icon="['fas', 'fingerprint']" class="white--text size-8"/>
+                                    <fa-icon :icon="['fas', 'fingerprint']" class="primary--text size-8"/>
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
                                     Vanilla
@@ -159,8 +159,8 @@
                         Web Servers <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// this will process what your customer's device can't do!</span>
                     </h3>
                 </div>
-                <div class="development-purpose mt-8 ma-6 px-7 d-flex flex-column justify-center align-center">
-                    <p class="dark-gray--text size-6 ma-3 line-height-8">
+                <div class="development-purpose px-7 d-flex flex-column justify-center align-center">
+                    <p class="dark-gray--text size-6 ma-3">
                         Even if your web site is very well developed, creative and interactive, it may need some <span
                             class="primary white--text px-4 py-3 border-radius-3">back-end</span> processing. This is
                         useful if your project manages sensitive data which can't be processed directly in your
@@ -254,8 +254,8 @@
                         Mobile Apps <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// there's nothing like an app to spread your idea!</span>
                     </h3>
                 </div>
-                <div class="development-purpose mt-8 ma-6 px-7 d-flex flex-column justify-center align-center">
-                    <p class="dark-gray--text size-6 ma-3 line-height-8">
+                <div class="development-purpose px-7 d-flex flex-column justify-center align-center">
+                    <p class="dark-gray--text size-6 ma-3">
                         The biggest companies around the world got a direct connection, became more visible and made
                         their
                         <span class="primary white--text px-4 py-3 border-radius-3">customers engaged</span>
@@ -391,6 +391,13 @@
                 }
             }
 
+            .development-purpose {
+                @extend .py-6;
+                @extend .mx-6;
+                @extend .size-6;
+                @extend .line-height-8;
+            }
+
             .development-technologies {
                 position: relative;
 
@@ -479,6 +486,8 @@
                             width: 100%;
 
                             p {
+                                @extend .size-6;
+                                @extend .line-height-7;
                                 line-height: nth($sizes, 8);
                             }
                         }

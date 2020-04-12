@@ -17,5 +17,16 @@ Vue.config.productionTip = false
 
 new Vue({
     router,
-    render: h => h(App)
+    render: h => h(App),
+    methods: {
+        /**
+         * @param {Boolean} value
+         */
+        updateDark(value) {
+            this.dark = value
+        }
+    },
+    data: () => ({
+        dark: true
+    })
 }).$mount('#app')

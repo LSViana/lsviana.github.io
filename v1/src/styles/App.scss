@@ -15,9 +15,9 @@ img {
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -36,6 +36,10 @@ p {
 // #region Class variables
 %border-radius {
   border-radius: #{1e6}px;
+}
+
+%select-none {
+  user-select: none;
 }
 
 // #endregion

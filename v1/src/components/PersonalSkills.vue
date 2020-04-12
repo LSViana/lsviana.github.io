@@ -456,7 +456,7 @@
 
                         p {
                             @extend .size-6;
-                            @extend .line-height-7;
+                            @extend .line-height-8;
                         }
 
                         span {
@@ -493,7 +493,7 @@
 
                 > p {
                     @extend .size-6;
-                    @extend .line-height-7;
+                    @extend .line-height-8;
                 }
             }
         }
