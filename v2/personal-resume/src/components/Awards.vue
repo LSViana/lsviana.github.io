@@ -47,6 +47,7 @@
             .item {
                 @extend .py-6;
                 @extend .pr-6;
+                @extend .bordered-container;
 
                 display: grid;
                 grid-template-columns: min-content 1fr;

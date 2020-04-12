@@ -94,7 +94,7 @@ body {
         &::after {
           @include positioned-fill;
 
-          background-color: $primaryColor;
+          background-color: $accentColor;
           border-radius: nth($sizes, 1);
           z-index: 0;
         }
@@ -154,6 +154,30 @@ img, svg {
   }
 }
 
+.bordered-container {
+  position: relative;
+
+  &::after {
+    @include positioned-fill;
+
+    top: 0;
+    left: 0;
+    border: 0 solid transparent;
+    border-radius: calc(#{nth($sizes, 2)} + .5vw);
+    opacity: $opacity40;
+    transition: top $fast, left $fast, border $fast;
+  }
+
+  &:hover {
+
+    &::after {
+      top: calc((#{nth($sizes, 1)} + .5vw) * -1);
+      left: calc((#{nth($sizes, 1)} + .5vw) * -1);
+      border: calc(#{nth($sizes, 1)} + .5vw) solid $accentColor;
+    }
+  }
+}
+
 .bordered-image {
   position: relative;
 
@@ -164,25 +188,25 @@ img, svg {
   &::after {
     @include positioned-fill;
 
-    top: calc((#{nth($sizes, 2)} + .5vw) * -1);
-    left: calc((#{nth($sizes, 2)} + .5vw) * -1);
+    top: calc((#{nth($sizes, 1)} + .25vw) * -1);
+    left: calc((#{nth($sizes, 1)} + .25vw) * -1);
     border-radius: 50%;
-    border: calc(#{nth($sizes, 2)} + .5vw) solid $accentColor;
+    border: calc(#{nth($sizes, 1)} + .25vw) solid $accentColor;
   }
 
   &::before {
     @include positioned-fill;
 
     border-radius: 50%;
-    border: 0 solid $primaryColor;
+    border: 0 solid $accentColor;
     opacity: $opacity40;
     transition: border-width $fast, top $fast, left $fast;
   }
 
   &:hover::before {
-    border-width: nth($sizes, 4);
-    top: nth($sizes, 4) * -1;
-    left: nth($sizes, 4) * -1;
+    border-width: calc(#{nth($sizes, 4)} + 1vw);
+    top: calc((#{nth($sizes, 4)} + 1vw) * -1);
+    left: calc((#{nth($sizes, 4)} + 1vw) * -1);
   }
 }
 

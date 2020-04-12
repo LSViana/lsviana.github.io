@@ -97,8 +97,8 @@
                         display: flex;
 
                         svg, img {
-                            width: calc(#{nth($sizes, 5)} + .5vw);
-                            height: calc(#{nth($sizes, 5)} + .5vw);
+                            width: calc(#{nth($sizes, 6)} + 1vw);
+                            height: calc(#{nth($sizes, 6)} + 1vw);
                         }
                     }
 

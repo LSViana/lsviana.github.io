@@ -1,8 +1,5 @@
 module.exports = {
     configureWebpack: {
-        options: {
-            title: 'Lucas Viana\'s Résumé'
-        },
         module: {
             rules: [
                 {
