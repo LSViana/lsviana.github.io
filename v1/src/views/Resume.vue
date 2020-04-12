@@ -20,8 +20,7 @@
 
     .resume-container {
         .overview-container {
-            max-width: 100vw;
-            width: 360px;
+            max-width: 360px;
             border-right: nth($sizes, 3) solid $primaryColor;
         }
 
@@ -41,7 +40,7 @@
             flex-direction: column !important;
 
             .overview-container {
-                width: 100vw;
+                max-width: 100vw;
                 border-right: unset;
             }
 
