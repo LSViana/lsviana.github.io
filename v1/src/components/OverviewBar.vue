@@ -167,6 +167,7 @@
                     @extend .d-flex;
                     @extend .flex-column;
                     position: relative;
+                    overflow: hidden;
 
                     svg {
                         transition: transform $shortTime;

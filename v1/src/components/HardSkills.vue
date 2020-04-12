@@ -84,7 +84,7 @@
                         </div>
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
-                                <div class="technology-logo white pa-4 pt-5 circular-border-radius">
+                                <div class="technology-logo primary pa-4 pt-5 circular-border-radius">
                                     <img
                                             src="../assets/png/vue-js.png"
                                             alt="Logo of Vue.js">
@@ -130,7 +130,7 @@
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
-                                    <fa-icon :icon="['fas', 'fingerprint']" class="primary--text size-8"/>
+                                    <fa-icon :icon="['fas', 'fingerprint']" class="white--text dark-primary--text size-8"/>
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
                                     Vanilla

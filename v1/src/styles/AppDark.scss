@@ -129,7 +129,6 @@
         .brightness-switch {
           background-color: $darkBackgroundColor;
           color: $accentColor;
-          overflow: hidden;
 
           svg {
             color: $accentColor;
@@ -284,5 +283,10 @@
         }
       }
     }
+  }
+
+  // Text
+  .dark-primary--text {
+    color: $primaryColor;
   }
 }
