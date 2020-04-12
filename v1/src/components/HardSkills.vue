@@ -113,6 +113,11 @@
                                             <h3>Eventually</h3>
                                         </div>
                                     </a>
+                                    <a @click.prevent="showProjectDialog('covida')" target="blank">
+                                        <div class="technology-project">
+                                            <h3>Covida</h3>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div class="technology-description">
@@ -130,7 +135,8 @@
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
-                                    <fa-icon :icon="['fas', 'fingerprint']" class="white--text dark-primary--text size-8"/>
+                                    <fa-icon :icon="['fas', 'fingerprint']"
+                                             class="white--text dark-primary--text size-8"/>
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
                                     Vanilla
@@ -222,6 +228,11 @@
                                     <a href="" target="blank">
                                         <div class="technology-project">
                                             <h3>iDrones</h3>
+                                        </div>
+                                    </a>
+                                    <a @click.prevent="showProjectDialog('covida')" target="blank">
+                                        <div class="technology-project">
+                                            <h3>Covida</h3>
                                         </div>
                                     </a>
                                 </div>
