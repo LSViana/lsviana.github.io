@@ -1,6 +1,6 @@
 <template>
     <div class="hard-skills">
-        <sticky-header number="II" title="Hard Skills" />
+        <sticky-header number="II" title="Hard Skills"/>
         <div class="development-areas pa-8">
             <h3 class="dark-gray--text">
                 For you or your business
@@ -9,7 +9,7 @@
             <div class="development-area my-6">
                 <div class="development-header d-flex flex-row align-center ma-6">
                     <div class="development-symbol circular-border-radius pa-6 primary">
-                        <fa-icon :icon="['fas', 'globe']" class="accent--text size-9" />
+                        <fa-icon :icon="['fas', 'globe']" class="accent--text size-9"/>
                     </div>
                     <h3 class="ml-5 size-8 accent--text bold font-weight-light d-flex flex-row align-center">
                         Web Sites <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// and yours will be even more beautiful than this one, yeah?</span>
@@ -17,14 +17,16 @@
                 </div>
                 <div class="development-purpose mt-8 ma-6 px-7 d-flex flex-column justify-center align-center">
                     <p class="dark-gray--text size-6 ma-3 line-height-8">
-                        Creating websites is the easiest way to <span class="primary white--text px-4 py-3 border-radius-3">get closer to your customers or target audience</span>. From simple ones until the complex e-commerces, I can help you making your dreams come true!
+                        Creating websites is the easiest way to <span
+                            class="primary white--text px-4 py-3 border-radius-3">get closer to your customers or target audience</span>.
+                        From simple ones until the complex e-commerces, I can help you making your dreams come true!
                     </p>
                 </div>
                 <div class="development-technologies primary pa-8 mt-8">
-                    <div class="oblique-divider" />
-                    <div class="spacer mt-5" />
+                    <div class="oblique-divider"/>
+                    <div class="spacer mt-5"/>
                     <div class="d-flex flex-row align-center">
-                        <fa-icon :icon="['fas', 'code']" class="accent--text size-7" />
+                        <fa-icon :icon="['fas', 'code']" class="accent--text size-7"/>
                         <h3 class="accent--text bold font-weight-light size-7 ml-4">
                             Available technologies:
                         </h3>
@@ -34,8 +36,8 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
                                     <img
-                                        src="../assets/png/react-js.png"
-                                        alt="Logo of React.js">
+                                            src="../assets/png/react-js.png"
+                                            alt="Logo of React.js">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
                                     <a href="https://reactjs.org/" target="blank">
@@ -60,16 +62,23 @@
                             </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
-                                    Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of facilities to build
+                                    Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of
+                                    facilities to build
                                     websites highly customized, beautiful and interactive with the same tool which is
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
                                 </p>
                                 <p class="mx-6 dark-gray--text size-6">
-                                    I've worked on previous projects using <span class="font-weight-bold">React.js</span> and other very opinionated libraries, like
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Redux</span>, <span class="primary accent--text px-3 py-2 bold border-radius-3">React Router DOM</span> and <span class="primary accent--text px-3 py-2 bold border-radius-3">React Spring</span>.
+                                    I've worked on previous projects using <span
+                                        class="font-weight-bold">React.js</span> and other very opinionated libraries,
+                                    like
+                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Redux</span>,
+                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">React Router DOM</span>
+                                    and <span
+                                        class="primary accent--text px-3 py-2 bold border-radius-3">React Spring</span>.
                                 </p>
                                 <p class="mx-6 dark-gray--text size-6">
-                                    I'm available to use this technology right away to create web apps for your business.
+                                    I'm available to use this technology right away to create web apps for your
+                                    business.
                                 </p>
                             </div>
                         </div>
@@ -77,8 +86,8 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white pa-4 pt-5 circular-border-radius">
                                     <img
-                                        src="../assets/png/vue-js.png"
-                                        alt="Logo of Vue.js">
+                                            src="../assets/png/vue-js.png"
+                                            alt="Logo of Vue.js">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
                                     <a href="https://vuejs.org/">
@@ -108,17 +117,20 @@
                             </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
-                                    This is a reactive framework for developing websites, it was used to develop <span class="primary accent--text px-3 py-2 bold border-radius-3">this</span> résumé and, I can say it personally, it made the task a lot easier.
+                                    This is a reactive framework for developing websites, it was used to develop <span
+                                        class="primary accent--text px-3 py-2 bold border-radius-3">this</span> résumé
+                                    and, I can say it personally, it made the task a lot easier.
                                 </p>
                                 <p class="mx-6 dark-gray--text size-6">
-                                    I'm available to use this technology right away to create web apps for your business.
+                                    I'm available to use this technology right away to create web apps for your
+                                    business.
                                 </p>
                             </div>
                         </div>
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo primary pa-3 circular-border-radius">
-                                    <fa-icon :icon="['fas', 'fingerprint']" class="white--text size-8" />
+                                    <fa-icon :icon="['fas', 'fingerprint']" class="white--text size-8"/>
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
                                     Vanilla
@@ -126,7 +138,9 @@
                             </div>
                             <div class="technology-description ma-4">
                                 <p class="mx-6 dark-gray--text size-6">
-                                    Even if we can use the most powerful tools, there's nothing like building something from the bottom until the last details. For this purpose, I'm also available for projects which needs the use of standard
+                                    Even if we can use the most powerful tools, there's nothing like building something
+                                    from the bottom until the last details. For this purpose, I'm also available for
+                                    projects which needs the use of standard
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">HTML</span>,
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">CSS</span> and
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">JavaScript</span>.
@@ -139,7 +153,7 @@
             <div class="development-area my-6">
                 <div class="development-header d-flex flex-row align-center ma-6">
                     <div class="development-symbol circular-border-radius pa-6 primary">
-                        <fa-icon :icon="['fas', 'server']" class="accent--text size-9" />
+                        <fa-icon :icon="['fas', 'server']" class="accent--text size-9"/>
                     </div>
                     <h3 class="ml-5 size-8 accent--text bold font-weight-light d-flex flex-row align-center">
                         Web Servers <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// this will process what your customer's device can't do!</span>
@@ -147,14 +161,17 @@
                 </div>
                 <div class="development-purpose mt-8 ma-6 px-7 d-flex flex-column justify-center align-center">
                     <p class="dark-gray--text size-6 ma-3 line-height-8">
-                        Even if your web site is very well developed, creative and interactive, it may need some <span class="primary white--text px-4 py-3 border-radius-3">back-end</span> processing. This is useful if your project manages sensitive data which can't be processed directly in your customer's device.
+                        Even if your web site is very well developed, creative and interactive, it may need some <span
+                            class="primary white--text px-4 py-3 border-radius-3">back-end</span> processing. This is
+                        useful if your project manages sensitive data which can't be processed directly in your
+                        customer's device.
                     </p>
                 </div>
                 <div class="development-technologies primary pa-8 mt-8">
-                    <div class="oblique-divider" />
-                    <div class="spacer mt-5" />
+                    <div class="oblique-divider"/>
+                    <div class="spacer mt-5"/>
                     <div class="d-flex flex-row align-center">
-                        <fa-icon :icon="['fas', 'code']" class="accent--text size-7" />
+                        <fa-icon :icon="['fas', 'code']" class="accent--text size-7"/>
                         <h3 class="accent--text bold font-weight-light size-7 ml-4">
                             Available technologies:
                         </h3>
@@ -164,9 +181,9 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white circular-border-radius pa-3">
                                     <img
-                                        style="transform: scale(1.5)"
-                                        src="../assets/png/asp-net-core.png"
-                                        alt="Logo of ASP.NET Core">
+                                            style="transform: scale(1.5)"
+                                            src="../assets/png/asp-net-core.png"
+                                            alt="Logo of ASP.NET Core">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
                                     <a href="https://www.asp.net/core/overview/aspnet-vnext">
@@ -211,9 +228,12 @@
                             </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
-                                    Using <span class="font-weight-bold">C#</span> makes the web server development straight and extensible. This is a technology
+                                    Using <span class="font-weight-bold">C#</span> makes the web server development
+                                    straight and extensible. This is a technology
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">widely used</span>
-                                    and it makes your project easier to be quickly developed, due the great community and features the <span class="font-weight-bold">ASP.NET Core</span> framework provides.
+                                    and it makes your project easier to be quickly developed, due the great community
+                                    and features the <span class="font-weight-bold">ASP.NET Core</span> framework
+                                    provides.
                                     Going further, using
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">Entity Framework Core</span>
                                     I will connect your web server to a
@@ -228,7 +248,7 @@
             <div class="development-area my-6">
                 <div class="development-header d-flex flex-row align-center ma-6">
                     <div class="development-symbol circular-border-radius pa-6 primary">
-                        <fa-icon :icon="['fas', 'mobile-alt']" class="accent--text size-9" />
+                        <fa-icon :icon="['fas', 'mobile-alt']" class="accent--text size-9"/>
                     </div>
                     <h3 class="ml-5 size-8 accent--text bold font-weight-light d-flex flex-row align-center">
                         Mobile Apps <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// there's nothing like an app to spread your idea!</span>
@@ -236,17 +256,19 @@
                 </div>
                 <div class="development-purpose mt-8 ma-6 px-7 d-flex flex-column justify-center align-center">
                     <p class="dark-gray--text size-6 ma-3 line-height-8">
-                        The biggest companies around the world got a direct connection, became more visible and made their
+                        The biggest companies around the world got a direct connection, became more visible and made
+                        their
                         <span class="primary white--text px-4 py-3 border-radius-3">customers engaged</span>
-                        in their business through mobile apps! If this work is well done, your audience will trust your services
+                        in their business through mobile apps! If this work is well done, your audience will trust your
+                        services
                         and it's likely they'll be around for longer.
                     </p>
                 </div>
                 <div class="development-technologies primary pa-8 mt-8">
-                    <div class="oblique-divider" />
-                    <div class="spacer mt-5" />
+                    <div class="oblique-divider"/>
+                    <div class="spacer mt-5"/>
                     <div class="d-flex flex-row align-center">
-                        <fa-icon :icon="['fas', 'code']" class="accent--text size-7" />
+                        <fa-icon :icon="['fas', 'code']" class="accent--text size-7"/>
                         <h3 class="accent--text bold font-weight-light size-7 ml-4">
                             Available technologies:
                         </h3>
@@ -256,8 +278,8 @@
                             <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
                                 <div class="technology-logo white pa-3 circular-border-radius">
                                     <img
-                                        src="../assets/png/flutter.png"
-                                        alt="Logo of Flutter">
+                                            src="../assets/png/flutter.png"
+                                            alt="Logo of Flutter">
                                 </div>
                                 <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
                                     <a href="https://flutter.io/">
@@ -277,10 +299,12 @@
                             </div>
                             <div class="technology-description">
                                 <p class="mx-6 dark-gray--text size-6">
-                                    When you need great performance and a fast development process, this tool takes place.
-                                    Made by                               
+                                    When you need great performance and a fast development process, this tool takes
+                                    place.
+                                    Made by
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">Google</span>,
-                                    <span class="font-weight-bold">Flutter</span> brings a fresh community, organized Docs to work using
+                                    <span class="font-weight-bold">Flutter</span> brings a fresh community, organized
+                                    Docs to work using
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">Dart</span>, a
                                     <span class="primary accent--text px-3 py-2 bold border-radius-3">compiled</span>
                                     language developed and maintained by the Mountain View's enterprise.
@@ -292,155 +316,179 @@
             </div>
         </div>
         <fullscreen-dialog v-model="detailsDialog">
-            <project-dialog :projectName="projectName" @close="detailsDialog = false" />
+            <project-dialog :projectName="projectName" @close="detailsDialog = false"/>
         </fullscreen-dialog>
     </div>
 </template>
 
 <script>
-export default {
-    data: () => ({
-        detailsDialog: false,
-        projectName: '',
-    }),
-    methods: {
-        showProjectDialog(projectName) {
-            this.detailsDialog = true
-            this.projectName = projectName
+    export default {
+        data: () => ({
+            detailsDialog: false,
+            projectName: ''
+        }),
+        methods: {
+            showProjectDialog(projectName) {
+                this.detailsDialog = true
+                this.projectName = projectName
+            }
         }
     }
-}
 </script>
 
 <style lang="scss">
-@import '../styles/Variables.scss';
+    @import '../styles/Variables.scss';
 
-@media screen and (max-width: $lgToMd) {
-    .development-areas {
-        .development-area {
-            .development-technologies {
-                padding-right: nth($sizes, 4) !important;
-                padding-left: nth($sizes, 4) !important;
+    @media screen and (max-width: $lgToMd) {
+        .development-areas {
+            .development-area {
+                .development-technologies {
+                    padding-right: nth($sizes, 4) !important;
+                    padding-left: nth($sizes, 4) !important;
+                }
             }
         }
     }
-}
 
-.development-areas {
-    .development-area {
-        border-radius: nth($sizes, 3);
-        border: nth($sizes, 3) $primaryColor solid;
-        overflow: hidden;
-        position: relative;
-        .development-header {
-            .development-symbol {
-                width: nth($sizes, 9) * 2;
-                height: nth($sizes, 9) * 2;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .development-symbol::before {
-                content: ' ';
-                position: absolute;
-                top: nth($sizes, 9) * -1;
-                left: nth($sizes, 8) * 1.25;
-                height: nth($sizes, 9) * 2;
-                width: nth($sizes, 9) * 2;
-                background: $primaryColor;
-                transform: rotate(-10deg) translateX(nth($sizes, 7) * -1);
-                z-index: -1;
-            }
-            .development-symbol::after {
-                content: ' ';
-                position: absolute;
-                top: nth($sizes, 6) * -2;
-                left: nth($sizes, 9) * 1.3;
-                height: nth($sizes, 9) * 3;
-                width: 100%;
-                background: $primaryColor;
-                transform: rotate(2deg) translateX(nth($sizes, 7) * -.75);
-                z-index: -1;
-            }
-        }
-        .development-technologies {
+    .development-areas {
+        .development-area {
+            border-radius: nth($sizes, 3);
+            border: nth($sizes, 3) $primaryColor solid;
+            overflow: hidden;
             position: relative;
-            .oblique-divider {
-                height: nth($sizes, 9) * 1.25;
-                transform: rotate(1deg) translateY(nth($sizes, 5) * -1);
+
+            .development-header {
+                .development-symbol {
+                    width: nth($sizes, 9) * 2;
+                    height: nth($sizes, 9) * 2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .development-symbol::before {
+                    content: ' ';
+                    position: absolute;
+                    top: nth($sizes, 9) * -1;
+                    left: nth($sizes, 8) * 1.25;
+                    height: nth($sizes, 9) * 2;
+                    width: nth($sizes, 9) * 2;
+                    background: $primaryColor;
+                    transform: rotate(-10deg) translateX(nth($sizes, 7) * -1);
+                    z-index: -1;
+                }
+
+                .development-symbol::after {
+                    content: ' ';
+                    position: absolute;
+                    top: nth($sizes, 6) * -2;
+                    left: nth($sizes, 9) * 1.3;
+                    height: nth($sizes, 9) * 3;
+                    width: 100%;
+                    background: $primaryColor;
+                    transform: rotate(2deg) translateX(nth($sizes, 7) * -.75);
+                    z-index: -1;
+                }
             }
-            .technologies-container {
-                .technology {
-                    margin: nth($sizes, 6) 0px;
-                    background-color: white;
-                    .technology-header {
-                        color: $primaryColor;
-                        & > * {
-                            margin-top: nth($sizes, 4);
-                        }
-                        h3 {
-                            a {
-                                border-bottom: nth($sizes, 3) $primaryColor dashed;
+
+            .development-technologies {
+                position: relative;
+
+                .oblique-divider {
+                    height: nth($sizes, 9) * 1.25;
+                    transform: rotate(1deg) translateY(nth($sizes, 5) * -1);
+                }
+
+                .technologies-container {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+                    grid-gap: nth($sizes, 4);
+                    margin: nth($sizes, 4) 0;
+
+                    .technology {
+                        background-color: white;
+
+                        .technology-header {
+                            color: $primaryColor;
+
+                            & > * {
+                                margin-top: nth($sizes, 4);
+                            }
+
+                            h3 {
+                                a {
+                                    border-bottom: nth($sizes, 3) $primaryColor dashed;
+                                }
+                            }
+
+                            .technology-logo {
+                                flex-shrink: 0;
+                                width: nth($sizes, 9);
+                                height: nth($sizes, 9);
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: center;
+
+                                img {
+                                    width: 100%;
+                                }
                             }
                         }
-                        .technology-logo {
-                            flex-shrink: 0;
-                            width: nth($sizes, 9);
-                            height: nth($sizes, 9);
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            justify-content: center;
-                            img {
-                                width: 100%;
+
+                        .technology-projects {
+                            align-self: stretch;
+                            margin: 0px nth($sizes, 6);
+                            margin-top: nth($sizes, 5);
+                            padding: nth($sizes, 4);
+                            border-radius: nth($sizes, 3);
+                            background-color: $primaryColor;
+
+                            & > p:nth-child(1) {
+                                margin-bottom: nth($sizes, 3);
+                                font-size: .8em;
+                                font-weight: bold;
+                                color: white;
+                                text-transform: uppercase;
                             }
-                        }
-                    }
-                    .technology-projects {
-                        align-self: stretch;
-                        margin: 0px nth($sizes, 6);
-                        margin-top: nth($sizes, 5);
-                        padding: nth($sizes, 4);
-                        border-radius: nth($sizes, 3);
-                        background-color: $primaryColor;
-                        & > p:nth-child(1) {
-                            margin-bottom: nth($sizes, 3);
-                            font-size: .8em;
-                            font-weight: bold;
-                            color: white;
-                            text-transform: uppercase;
-                        }
-                        .projects-container {
-                            display: flex;
-                            flex-flow: row wrap;
-                            justify-content: flex-start;
-                            align-items: center;
-                            & > a {
-                                margin: nth($sizes, 2);
-                                .technology-project {
-                                    background-color: white;
-                                    padding: nth($sizes, 2) nth($sizes, 4);
-                                    border-radius: nth($sizes, 3);
-                                    & > h3 {
-                                        color: $primaryColor;
+
+                            .projects-container {
+                                display: flex;
+                                flex-flow: row wrap;
+                                justify-content: flex-start;
+                                align-items: center;
+
+                                & > a {
+                                    margin: nth($sizes, 2);
+
+                                    .technology-project {
+                                        background-color: white;
+                                        padding: nth($sizes, 2) nth($sizes, 4);
+                                        border-radius: nth($sizes, 3);
+
+                                        & > h3 {
+                                            color: $primaryColor;
+                                        }
                                     }
                                 }
                             }
                         }
-                    }
-                    .technology-description {
-                        margin: nth($sizes, 5) 0;
-                        width: 100%;
-                        p {
-                            line-height: nth($sizes, 8);
+
+                        .technology-description {
+                            margin: nth($sizes, 5) 0;
+                            width: 100%;
+
+                            p {
+                                line-height: nth($sizes, 8);
+                            }
                         }
                     }
-                }
-                .technology:nth-child(2n + 1) {
-                    background: $accentColor;
+
+                    .technology:nth-child(2n + 1) {
+                        background: $accentColor;
+                    }
                 }
             }
         }
     }
-}
 </style>

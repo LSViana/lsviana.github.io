@@ -31,83 +31,90 @@ $accentColor: #ffe500;
 $grayColor: gray;
 $lightGrayColor: #9c9c9c;
 $darkGrayColor: dimgray;
+
+$darkTextColor: white;
+$darkerTextColor: #c4c4c4;
+$darkBackgroundColor: #424242;
+$darkerBackgroundColor: #323232;
+$darkestBackgroundColor: #212121;
 // #endregion
 
 // #region Layout
 @each $size in $sizes {
 
-    .size-#{$iteration} {
-        font-size: $size;
-    }
+  .size-#{$iteration} {
+    font-size: $size;
+  }
 
-    .border-radius-#{$iteration} {
-        border-radius: $size;
-    }
+  .border-radius-#{$iteration} {
+    border-radius: $size;
+  }
 
-    .line-height-#{$iteration} {
-        line-height: $size;
-    }
+  .line-height-#{$iteration} {
+    line-height: $size;
+  }
 
-    .ma-#{$iteration} {
-        margin: $size;
-    }
+  .ma-#{$iteration} {
+    margin: $size;
+  }
 
-    .ml-#{$iteration} {
-        margin-left: $size;
-    }
+  .ml-#{$iteration} {
+    margin-left: $size;
+  }
 
-    .mb-#{$iteration} {
-        margin-bottom: $size;
-    }
+  .mb-#{$iteration} {
+    margin-bottom: $size;
+  }
 
-    .mr-#{$iteration} {
-        margin-right: $size;
-    }
+  .mr-#{$iteration} {
+    margin-right: $size;
+  }
 
-    .mt-#{$iteration} {
-        margin-top: $size;
-    }
+  .mt-#{$iteration} {
+    margin-top: $size;
+  }
 
-    .mx-#{$iteration} {
-        margin-left: $size;
-        margin-right: $size;
-    }
+  .mx-#{$iteration} {
+    margin-left: $size;
+    margin-right: $size;
+  }
 
-    .my-#{$iteration} {
-        margin-top: $size;
-        margin-bottom: $size;
-    }
+  .my-#{$iteration} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
 
-    .pa-#{$iteration} {
-        padding: $size;
-    }
+  .pa-#{$iteration} {
+    padding: $size;
+  }
 
-    .pl-#{$iteration} {
-        padding-left: $size;
-    }
+  .pl-#{$iteration} {
+    padding-left: $size;
+  }
 
-    .pb-#{$iteration} {
-        padding-bottom: $size;
-    }
+  .pb-#{$iteration} {
+    padding-bottom: $size;
+  }
 
-    .pr-#{$iteration} {
-        padding-right: $size;
-    }
+  .pr-#{$iteration} {
+    padding-right: $size;
+  }
 
-    .pt-#{$iteration} {
-        padding-top: $size;
-    }
+  .pt-#{$iteration} {
+    padding-top: $size;
+  }
 
-    .px-#{$iteration} {
-        padding-left: $size;
-        padding-right: $size;
-    }
+  .px-#{$iteration} {
+    padding-left: $size;
+    padding-right: $size;
+  }
 
-    .py-#{$iteration} {
-        padding-top: $size;
-        padding-bottom: $size;
-    }
+  .py-#{$iteration} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
 
-    $iteration: $iteration + 1;
+  $iteration: $iteration + 1;
 }
+
 // #endregion

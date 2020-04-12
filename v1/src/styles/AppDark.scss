@@ -1,0 +1,192 @@
+@import './General.scss';
+@import './Variables.scss';
+
+#app.dark {
+  .header-row, .intro-row, .square-wave-primary, .education-container, .development-areas {
+    background-color: $darkestBackgroundColor;
+    color: $darkTextColor;
+  }
+
+  .primary {
+    background-color: $accentColor;
+    color: $darkBackgroundColor !important;
+  }
+
+  .square-wave-white, .awards-container, .interests-container {
+    background-color: $darkBackgroundColor;
+  }
+
+  .header-row {
+    border-color: $darkBackgroundColor;
+
+    .header-title-marker {
+      background-color: $darkTextColor;
+      color: $primaryColor;
+    }
+  }
+
+  .header-row, .intro-row, .development-areas {
+    * {
+      color: $darkTextColor;
+    }
+  }
+
+  .development-areas {
+    .development-area {
+      border-color: $darkBackgroundColor;
+
+      .development-header {
+        .development-symbol {
+          z-index: 1;
+          background-color: $darkBackgroundColor;
+
+          svg * {
+            color: $accentColor !important;
+          }
+
+          &::before, &::after {
+            background-color: $darkBackgroundColor;
+          }
+        }
+
+        h3 {
+          color: $accentColor;
+          z-index: 1;
+        }
+      }
+
+
+      .development-technologies {
+        background-color: $darkBackgroundColor;
+
+        .technology {
+          background-color: $darkestBackgroundColor;
+
+          .technology-header {
+            h3 {
+              a {
+                border-bottom-color: $darkTextColor;
+              }
+            }
+          }
+
+          .technology-projects {
+            background-color: $darkBackgroundColor;
+
+            h3 {
+              color: $primaryColor;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .root-container {
+    background-color: $darkBackgroundColor;
+
+    .overview-container {
+      border-right: 4px solid $darkBackgroundColor;
+
+      .profile-container {
+        background-color: $darkBackgroundColor;
+      }
+
+      .contact-container {
+        background-color: $darkestBackgroundColor;
+
+        .social-media {
+          a > div:hover {
+            border-color: $darkBackgroundColor;
+          }
+
+          .icon-container {
+            color: $primaryColor;
+            background-color: $darkBackgroundColor;
+
+            &:hover {
+              border-color: $darkBackgroundColor;
+            }
+          }
+
+          .link-container {
+            p {
+              color: $darkTextColor;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .oblique-divider {
+    background-color: $darkBackgroundColor;
+  }
+
+  .award-date {
+    background-color: $primaryColor;
+    color: $darkTextColor;
+  }
+
+  .education-container {
+    .education-item {
+      .education-title {
+        p {
+          color: $darkTextColor;
+
+          span {
+            color: $darkTextColor;
+          }
+
+          a {
+            border-bottom-color: $darkTextColor;
+          }
+        }
+      }
+
+      .education-date {
+        p {
+          color: $accentColor;
+        }
+      }
+
+      .education-description {
+        p {
+          color: $darkerTextColor;
+        }
+      }
+    }
+  }
+
+  .square-wave-primary::before {
+    background-image: url('../assets/svg/square-wave-dark.svg');
+  }
+
+  .square-wave-white::before {
+    background-image: url('../assets/svg/square-wave-darker.svg');
+  }
+
+  .wavy-primary {
+    background-color: $darkestBackgroundColor;
+
+    &::before {
+      background-image: radial-gradient(circle at 10px -5px, transparent 12px, $darkBackgroundColor 13px)
+    }
+
+    &::after {
+      background-image: radial-gradient(circle at 10px 15px, $darkBackgroundColor 12px, transparent 13px);
+    }
+  }
+
+  .wavy-white {
+    background-color: $darkBackgroundColor;
+
+    &::before {
+      background-image: radial-gradient(circle at 10px -5px, transparent 12px, $darkestBackgroundColor 13px)
+    }
+
+    &::after {
+      background-image: radial-gradient(circle at 10px 15px, $darkestBackgroundColor 12px, transparent 13px);
+    }
+  }
+}
