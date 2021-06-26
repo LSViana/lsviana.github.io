@@ -186,6 +186,10 @@
   }
 
   .education-container {
+    .education-border-line {
+      border-color: white;
+    }
+
     h3 {
       color: $darkTextColor;
     }
@@ -215,6 +219,14 @@
         p {
           color: $darkerTextColor;
         }
+      }
+
+      .education-school-logo {
+        border-color: white;
+      }
+
+      .education-left-line {
+        background: white;
       }
     }
   }

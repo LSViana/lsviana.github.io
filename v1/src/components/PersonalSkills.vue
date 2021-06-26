@@ -294,12 +294,6 @@
             </h3>
             <div class="interests-cards d-flex flex-row flex-wrap justify-center align-center">
                 <div class="d-flex flex-column justify-center align-center">
-                    <fa-icon :icon="['fas', 'bicycle']" class="accent--text size-8"/>
-                    <p class="text-uppercase size-6 font-weight-bold white--text">
-                        Cycling
-                    </p>
-                </div>
-                <div class="d-flex flex-column justify-center align-center">
                     <fa-icon :icon="['fas', 'futbol']" class="accent--text size-8"/>
                     <p class="text-uppercase size-6 font-weight-bold white--text">
                         Futsal
@@ -491,9 +485,14 @@
                     }
                 }
 
+                > div:nth-child(2) {
+                  @extend .pt-4;
+                }
+
                 > p {
                     @extend .size-6;
                     @extend .line-height-8;
+                    @extend .pt-3;
                 }
             }
         }

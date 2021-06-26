@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {
+    faAsterisk,
+    faPaintBrush,
     faAt,
     faAward,
     faBicycle,
@@ -22,7 +24,7 @@ import {
     faUniversity,
     faUserAstronaut,
     faVrCardboard
-} from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons';
 import {faBehance, faGithub, faLinkedinIn, faNodeJs, faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
@@ -40,9 +42,11 @@ library.add(faUserAstronaut)
 library.add(faAward)
 library.add(faGlobe)
 library.add(faMoon)
+library.add(faPaintBrush)
 library.add(faSun)
 library.add(faCode)
 library.add(faFingerprint)
+library.add(faAsterisk)
 library.add(faServer)
 library.add(faMobileAlt)
 library.add(faTrophy)

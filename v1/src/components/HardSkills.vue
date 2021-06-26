@@ -12,7 +12,7 @@
                         <fa-icon :icon="['fas', 'globe']" class="accent--text size-9"/>
                     </div>
                     <h3 class="ml-5 size-8 accent--text bold font-weight-light d-flex flex-row align-center">
-                        Web Sites <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// and yours will be even more beautiful than this one, yeah?</span>
+                        Web Sites <span class="visible-lg-and-up ml-4 size-6 primary-light--text">// and yours will be even more beautiful than this one, yeah?</span>
                     </h3>
                 </div>
                 <div class="development-purpose px-7 d-flex flex-column justify-center align-center">
@@ -45,7 +45,7 @@
                                     </a>
                                 </h3>
                             </div>
-                            <div class="technology-projects">
+                            <div class="technology-projects flex-1">
                                 <p>Previous projects:</p>
                                 <div class="projects-container">
                                     <a target="blank">
@@ -59,27 +59,6 @@
                                         </div>
                                     </a>
                                 </div>
-                            </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    Similar to <span class="font-weight-bold">Vue.js</span>, this tool brings a lot of
-                                    facilities to build
-                                    websites highly customized, beautiful and interactive with the same tool which is
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">used by Facebook</span>.
-                                </p>
-                                <p class="mx-6 dark-gray--text size-6">
-                                    I've worked on previous projects using <span
-                                        class="font-weight-bold">React.js</span> and other very opinionated libraries,
-                                    like
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Redux</span>,
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">React Router DOM</span>
-                                    and <span
-                                        class="primary accent--text px-3 py-2 bold border-radius-3">React Spring</span>.
-                                </p>
-                                <p class="mx-6 dark-gray--text size-6">
-                                    I'm available to use this technology right away to create web apps for your
-                                    business.
-                                </p>
                             </div>
                         </div>
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
@@ -95,7 +74,7 @@
                                     </a>
                                 </h3>
                             </div>
-                            <div class="technology-projects">
+                            <div class="technology-projects flex-1">
                                 <p>Previous projects:</p>
                                 <div class="projects-container">
                                     <a @click.prevent="showProjectDialog('infocast')" target="blank">
@@ -118,18 +97,17 @@
                                             <h3>Covida</h3>
                                         </div>
                                     </a>
+                                    <a href="https://www.testdome.com/" target="blank">
+                                      <div class="technology-project">
+                                        <h3>TestDome</h3>
+                                      </div>
+                                    </a>
+                                    <a href="https://web.archive.org/web/20210522161312if_/https://www.circulardocs.com/" target="blank">
+                                      <div class="technology-project">
+                                        <h3>Circular Docs</h3>
+                                      </div>
+                                    </a>
                                 </div>
-                            </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    This is a reactive framework for developing websites, it was used to develop <span
-                                        class="primary accent--text px-3 py-2 bold border-radius-3">this</span> résumé
-                                    and, I can say it personally, it made the task a lot easier.
-                                </p>
-                                <p class="mx-6 dark-gray--text size-6">
-                                    I'm available to use this technology right away to create web apps for your
-                                    business.
-                                </p>
                             </div>
                         </div>
                         <div class="technology border-radius-4 d-flex flex-column align-center py-6">
@@ -142,16 +120,13 @@
                                     Vanilla
                                 </h3>
                             </div>
-                            <div class="technology-description ma-4">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    Even if we can use the most powerful tools, there's nothing like building something
-                                    from the bottom until the last details. For this purpose, I'm also available for
-                                    projects which needs the use of standard
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">HTML</span>,
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">CSS</span> and
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">JavaScript</span>.
-                                </p>
-                            </div>
+                          <div class="technology-projects flex-1 d-flex justify-center">
+                            <p class="mt-3">
+                              <fa-icon :icon="['fas', 'asterisk']" class="white--text size-5 mr-4" />
+                              <span>Nothing to show so far.</span>
+                              <fa-icon :icon="['fas', 'asterisk']" class="white--text size-5 ml-4" />
+                            </p>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -162,7 +137,7 @@
                         <fa-icon :icon="['fas', 'server']" class="accent--text size-9"/>
                     </div>
                     <h3 class="ml-5 size-8 accent--text bold font-weight-light d-flex flex-row align-center">
-                        Web Servers <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// this will process what your customer's device can't do!</span>
+                        Web Servers <span class="visible-lg-and-up ml-4 size-6 primary-light--text">// this will process what your customer's device can't do!</span>
                     </h3>
                 </div>
                 <div class="development-purpose px-7 d-flex flex-column justify-center align-center">
@@ -235,22 +210,17 @@
                                             <h3>Covida</h3>
                                         </div>
                                     </a>
+                                    <a href="https://www.testdome.com/" target="blank">
+                                      <div class="technology-project">
+                                        <h3>TestDome</h3>
+                                      </div>
+                                    </a>
+                                    <a href="https://web.archive.org/web/20210522161312if_/https://www.circulardocs.com/" target="blank">
+                                      <div class="technology-project">
+                                        <h3>Circular Docs</h3>
+                                      </div>
+                                    </a>
                                 </div>
-                            </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    Using <span class="font-weight-bold">C#</span> makes the web server development
-                                    straight and extensible. This is a technology
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">widely used</span>
-                                    and it makes your project easier to be quickly developed, due the great community
-                                    and features the <span class="font-weight-bold">ASP.NET Core</span> framework
-                                    provides.
-                                    Going further, using
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Entity Framework Core</span>
-                                    I will connect your web server to a
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">SQL Server</span>
-                                    database and your data will be safely stored.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -262,7 +232,7 @@
                         <fa-icon :icon="['fas', 'mobile-alt']" class="accent--text size-9"/>
                     </div>
                     <h3 class="ml-5 size-8 accent--text bold font-weight-light d-flex flex-row align-center">
-                        Mobile Apps <span class="visible-lg-and-up ml-4 size-6 light-gray--text">// there's nothing like an app to spread your idea!</span>
+                        Mobile Apps <span class="visible-lg-and-up ml-4 size-6 primary-light--text">// there's nothing like an app to spread your idea!</span>
                     </h3>
                 </div>
                 <div class="development-purpose px-7 d-flex flex-column justify-center align-center">
@@ -308,23 +278,69 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="technology-description">
-                                <p class="mx-6 dark-gray--text size-6">
-                                    When you need great performance and a fast development process, this tool takes
-                                    place.
-                                    Made by
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Google</span>,
-                                    <span class="font-weight-bold">Flutter</span> brings a fresh community, organized
-                                    Docs to work using
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">Dart</span>, a
-                                    <span class="primary accent--text px-3 py-2 bold border-radius-3">compiled</span>
-                                    language developed and maintained by the Mountain View's enterprise.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="development-area my-6">
+              <div class="development-header d-flex flex-row align-center ma-6">
+                <div class="development-symbol circular-border-radius pa-6 primary">
+                  <fa-icon :icon="['fas', 'mobile-alt']" class="accent--text size-9"/>
+                </div>
+                <h3 class="ml-5 size-8 accent--text bold font-weight-light d-flex flex-row align-center">
+                  UX/UI Design <span class="visible-lg-and-up ml-4 size-6 primary-light--text">// deliver beautiful & useful apps.</span>
+                </h3>
+              </div>
+              <div class="development-purpose px-7 d-flex flex-column justify-center align-center">
+                <p class="dark-gray--text size-6 ma-3">
+                  Creating apps is not hard, but creating <b>beautiful</b> and <b>useful</b> apps is something a few people
+                  can do well.
+                  This is the skill I am least used to, but I've been working hard to improve it and getting my hands on
+                  professional & personal projects.
+                </p>
+              </div>
+              <div class="development-technologies primary pa-8 mt-8">
+                <div class="oblique-divider"/>
+                <div class="spacer mt-5"/>
+                <div class="d-flex flex-row align-center">
+                  <fa-icon :icon="['fas', 'paint-brush']" class="accent--text size-7"/>
+                  <h3 class="accent--text bold font-weight-light size-7 ml-4">
+                    Available tools:
+                  </h3>
+                </div>
+                <div class="technologies-container">
+                  <div class="technology border-radius-4 d-flex flex-column align-center py-6">
+                    <div class="technology-header mx-6 d-flex flex-row flex-wrap align-center justify-center">
+                      <div class="technology-logo white pa-3 circular-border-radius">
+                        <img
+                          src="../assets/svg/figma.svg"
+                          alt="Logo of Flutter">
+                      </div>
+                      <h3 class="ml-4 text-uppercase bold size-8 font-weight-light">
+                        <a href="https://www.figma.com/">
+                          Figma
+                        </a>
+                      </h3>
+                    </div>
+                    <div class="technology-projects">
+                      <p>Previous projects:</p>
+                      <div class="projects-container">
+                        <a href="https://www.testdome.com/" target="blank">
+                          <div class="technology-project">
+                            <h3>TestDome</h3>
+                          </div>
+                        </a>
+                        <a href="https://web.archive.org/web/20210522161312if_/https://www.circulardocs.com/" target="blank">
+                          <div class="technology-project">
+                            <h3>Circular Docs</h3>
+                          </div>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <fullscreen-dialog v-model="detailsDialog">
             <project-dialog :projectName="projectName" @close="detailsDialog = false"/>
@@ -450,6 +466,8 @@
 
                                 img {
                                     width: 100%;
+                                    height: 100%;
+                                    object-fit: contain;
                                 }
                             }
                         }
