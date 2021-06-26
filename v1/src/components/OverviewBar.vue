@@ -69,24 +69,24 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://be.net/lucasvianas" target="blank">
+                <a href="http://be.net/lsviana" target="blank">
                     <div class="github-media d-flex flex-row justify-center align-center">
                         <div class="icon-container">
                             <fa-icon :icon="['fab', 'behance']" class="white--text"/>
                         </div>
                         <div class="link-container ml-4">
-                            <p>be.net/lucasvianas</p>
+                            <p>be.net/lsviana</p>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="brightness-switch" @click="$root.updateDark(!dark)">
                 <div class="brightness-icon">
-                    <fa-icon :icon="['fas', 'moon']"/>
                     <fa-icon :icon="['fas', 'sun']"/>
+                    <fa-icon :icon="['fas', 'moon']"/>
                 </div>
                 <p>
-                    {{ dark ? 'Light' : 'Dark' }}
+                    {{ dark ? 'Dark' : 'Light' }}
                 </p>
             </div>
         </div>

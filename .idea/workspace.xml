@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a161fcc-4717-440f-a69a-d7ad8ce57c26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/v1/src/assets/svg/figma.svg" afterDir="false" />
+    <list default="true" id="0a161fcc-4717-440f-a69a-d7ad8ce57c26" name="Default Changelist" comment="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v1/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/public/lv-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/v1/public/lv-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/assets/svg/if-purple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/assets/svg/if-purple.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/assets/svg/square-wave.svg" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/assets/svg/square-wave.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/assets/svg/univesp-purple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/assets/svg/univesp-purple.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/components/HardSkills.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/components/HardSkills.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/components/PersonalSkills.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/components/PersonalSkills.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/iconInitializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/iconInitializer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/styles/AppDark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/styles/AppDark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/styles/General.scss" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/styles/General.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/styles/Variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/styles/Variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2/personal-resume/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/v2/personal-resume/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2/personal-resume/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/v2/personal-resume/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/OverviewBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/components/OverviewBar.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +84,17 @@
       <workItem from="1586618322302" duration="654000" />
       <workItem from="1586621285528" duration="453000" />
       <workItem from="1624380884572" duration="895000" />
-      <workItem from="1624674219890" duration="4338000" />
+      <workItem from="1624674219890" duration="4703000" />
+      <workItem from="1624721093910" duration="144000" />
     </task>
+    <task id="LOCAL-00001" summary="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section">
+      <created>1624678748441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624678748441</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +111,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section" />
   </component>
 </project>
