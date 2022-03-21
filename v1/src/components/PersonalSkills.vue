@@ -22,6 +22,40 @@
               1st
             </h2>
             <h3 class="award-title">
+              <span>National Champion</span>
+              in
+              <span class="award-competition-name">
+                <a href="https://youtu.be/G9noGCId7x0?t=1354" target="blank">
+                  Olimpíadas do Conhecimento 2022
+                </a>
+              </span>
+            </h3>
+          </div>
+          <div class="d-flex flex-row flex-wrap">
+            <h5
+                class="award-date primary--text white py-3 px-4 border-radius-4 ma-2"
+            >
+              March, 2022
+            </h5>
+            <h5
+                class="award-date primary--text white py-3 px-4 border-radius-4 ma-2"
+            >
+              Awarded in Maceió, Alagoas
+            </h5>
+          </div>
+          <p>
+            This competition defined a Web Technologies competitor to
+            represent Brazil at
+            <a href="https://worldskills.org/what/competitions/wsc2022/">WorldSkills Shanghai 2022</a>.
+          </p>
+        </div>
+        <div class="award-item">
+          <div class="d-flex flex-row flex-wrap align-center">
+            <fa-icon :icon="['fas', 'award']" class="size-8 accent--text" />
+            <h2 class="mx-4 size-8 accent--text">
+              1st
+            </h2>
+            <h3 class="award-title">
               <span>Americas Champion</span>
               in
               <span class="award-competition-name">
