@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a161fcc-4717-440f-a69a-d7ad8ce57c26" name="Default Changelist" comment="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/src/components/OverviewBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/components/OverviewBar.vue" afterDir="false" />
-    </list>
+    <list default="true" id="0a161fcc-4717-440f-a69a-d7ad8ce57c26" name="Default Changelist" comment="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,16 +23,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Lucas Viana\Development\javascript\lsviana.github.io\v1" />
@@ -86,6 +84,7 @@
       <workItem from="1624380884572" duration="895000" />
       <workItem from="1624674219890" duration="4703000" />
       <workItem from="1624721093910" duration="144000" />
+      <workItem from="1668549638986" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section">
       <created>1624678748441</created>
@@ -110,9 +109,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section" />
     <option name="LAST_COMMIT_MESSAGE" value="Update website to include TestDome &amp; Circular Docs and to include Design hard skills section" />
   </component>
