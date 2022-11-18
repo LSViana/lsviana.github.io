@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import HomeSample from '~/components/home/HomeSample.vue'
+</script>
+
 <template>
   <div>
     <div class="m-6 p-3 rounded-lg bg-red-200 border border-red-400">
@@ -6,5 +10,6 @@
       </h1>
       <p>I'm a web software developer.</p>
     </div>
+    <HomeSample />
   </div>
 </template>
