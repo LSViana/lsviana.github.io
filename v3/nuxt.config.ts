@@ -16,7 +16,16 @@ export default defineNuxtConfig({
           href: 'https://fonts.gstatic.com',
           crossorigin: ''
         }
-      ]
+      ],
+      meta: [
+        {
+          name: 'description',
+          content: 'Software Developer efficient with Vue.js, TypeScript, C#, and ASP.NET Core. Curious about software development since 12 y/o.'
+        }
+      ],
+      htmlAttrs: {
+        lang: 'en'
+      }
     }
   }
 })
