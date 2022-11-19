@@ -2,7 +2,9 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {}
+    fontFamily: {
+      sans: ['"Sora"']
+    }
   },
   plugins: []
 }
