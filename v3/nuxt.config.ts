@@ -10,13 +10,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Lucas Viana\'s Résumé',
-      link: [
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.gstatic.com',
-          crossorigin: ''
-        }
-      ],
       meta: [
         {
           name: 'description',
