@@ -48,6 +48,8 @@
             <span>Figma</span>
             <span class="select-none"> · </span>
             <span>Storybook</span>
+            <span class="select-none"> · </span>
+            <span>Jest</span>
           </div>
         </div>
       </div>
