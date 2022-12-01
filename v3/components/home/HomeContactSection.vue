@@ -10,7 +10,9 @@ const contacts = [
   <HomeSectionCard>
     <HomeSectionList title="Contact" :items="contacts">
       <template #item="{ item }">
-        <a :href="item.href" target="_blank" class="underline underline-offset-4 decoration-wavy">{{ item.text }}</a>
+        <a :href="item.href" target="_blank" class="underline underline-offset-4 decoration-wavy text-blue-400 hover:text-blue-300">
+          {{ item.text }}
+        </a>
       </template>
     </HomeSectionList>
   </HomeSectionCard>
