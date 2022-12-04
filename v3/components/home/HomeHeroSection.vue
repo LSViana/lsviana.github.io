@@ -1,5 +1,5 @@
 <template>
-  <HomeSectionCard>
+  <HomeSectionCard dense>
     <h1 class="text-5xl md:text-8xl tracking-tight">
       LSViana
     </h1>
