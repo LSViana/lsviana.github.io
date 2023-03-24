@@ -1,10 +1,9 @@
 <script setup lang="ts">
 const props = withDefaults(defineProps<{
-  dense: boolean
+  dense?: boolean
 }>(), {
   dense: false
 })
-
 </script>
 
 <template>
