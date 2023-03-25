@@ -8,7 +8,7 @@ const items = [
 </script>
 
 <template>
-  <HomeSectionCard>
-    <HomeSectionList title="Made with" :items="items" />
-  </HomeSectionCard>
+  <OldHomeSectionCard>
+    <OldHomeSectionList title="Made with" :items="items" />
+  </OldHomeSectionCard>
 </template>
