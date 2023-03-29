@@ -10,7 +10,7 @@ import Identification from '~/components/home/Identification.vue'
         <Header />
         <main class="grid md:grid-cols-6 md:gap-x-4 gap-y-4 flex-grow">
           <Identification class="col-span-2" />
-          <div class="col-span-4">
+          <div class="col-span-4 mt-4">
             <NuxtPage />
           </div>
         </main>
