@@ -4,7 +4,14 @@ import LvLink from '~/components/shared/LvLink.vue'
 
 <template>
   <aside class="flex flex-col">
-    <img src="/img/lucas.webp" alt="Lucas' profile picture" class="w-48 rounded-full">
+    <NuxtImg
+      src="/img/lucas.webp"
+      alt="Lucas' profile picture"
+      class="rounded-full"
+      width="192"
+      height="192"
+      preload
+    />
     <div class="mt-8">
       <p>
         Web developer and designer.
