@@ -2,8 +2,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxt/image-edge'
+    '@nuxtjs/tailwindcss'
   ],
   css: [
     '~/assets/styles/app.scss'
