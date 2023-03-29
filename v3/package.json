@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.21.3",
+    "@nuxt/image-edge": "^1.0.0-28001428.0aa03b6",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "6.6.3",
     "eslint": "^8.37.0",
