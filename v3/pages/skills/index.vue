@@ -9,6 +9,7 @@
       <li>TypeScript</li>
       <li>Playwright</li>
       <li>Storybook</li>
+      <li>Jest</li>
     </ul>
   </section>
   <section class="mt-10">
@@ -30,7 +31,6 @@
     <ul class="mt-4 flex flex-col gap-2">
       <li>Figma</li>
       <li>Storybook</li>
-      <li>Jest</li>
     </ul>
   </section>
 </template>
