@@ -27,6 +27,19 @@ import LvLink from '~/components/shared/LvLink.vue'
   </section>
   <section class="mt-10">
     <h2 class="text-3xl font-bold">
+      2022
+    </h2>
+    <ul class="mt-4 flex flex-col gap-4">
+      <li>
+        <p>
+          <LvLink href="https://web-labs.vercel.app/" target="_blank">Web Labs</LvLink>
+        </p>
+        <small>— Experiments on the web platform</small>
+      </li>
+    </ul>
+  </section>
+  <section class="mt-10">
+    <h2 class="text-3xl font-bold">
       2020
     </h2>
     <ul class="mt-4 flex flex-col gap-4">
