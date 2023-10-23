@@ -71,7 +71,7 @@ import LvLink from '~/components/shared/LvLink.vue'
     </h2>
     <ul class="mt-4 flex flex-col gap-4">
       <li>
-        <p>TestDome</p>
+        <p>TestDome (2020-now)</p>
         <small>— Product designer</small>
         <br>
         <small>— Software developer</small>
