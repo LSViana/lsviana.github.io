@@ -1,0 +1,4 @@
+body {
+  // This prevents layout shift when switching between pages with/without need for a scrollbar.
+  @apply overflow-y-scroll;
+}
