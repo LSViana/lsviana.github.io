@@ -71,7 +71,7 @@ import LvLink from '~/components/shared/LvLink.vue'
     </h2>
     <ul class="mt-4 flex flex-col gap-4">
       <li>
-        <p>TestDome (2020-now)</p>
+        <p><LvLink href="https://www.testdome.com/" target="_blank">TestDome</LvLink> (2020-now)</p>
         <small>— Product designer</small>
         <br>
         <small>— Software developer</small>
@@ -112,6 +112,23 @@ import LvLink from '~/components/shared/LvLink.vue'
         </p>
         <small>
           — Competitor at <LvLink href="https://web.archive.org/web/20220326102810/https://imaginecup.microsoft.com/en-us/Team/1243c298-1463-460d-b7bd-3450bbb8248d" target="_blank">Microsoft Imagine Cup 2019</LvLink>
+        </small>
+      </li>
+    </ul>
+  </section>
+  <section class="mt-10">
+    <h2 class="text-3xl font-bold">
+      2018
+    </h2>
+    <ul class="mt-4 flex flex-col gap-4">
+      <li>
+        <p><LvLink href="https://www.sp.senai.br/" target="_blank">SENAI</LvLink> (2018-2019)</p>
+        <small>
+          — Web software developer on projects for the industry
+        </small>
+        <br>
+        <small>
+          — Worked on React and ASP.NET Core
         </small>
       </li>
     </ul>
