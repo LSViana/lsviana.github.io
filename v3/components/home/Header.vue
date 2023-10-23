@@ -11,12 +11,12 @@ import LvLink from '~/components/shared/LvLink.vue'
     </h3>
     <ul class="flex gap-4">
       <li>
-        <LvLink to="/" active-class="font-bold">
-          Work
+        <LvLink to="/">
+          Work & Awards
         </LvLink>
       </li>
       <li>
-        <LvLink to="/skills" active-class="font-bold">
+        <LvLink to="/skills">
           Skills
         </LvLink>
       </li>
