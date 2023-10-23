@@ -5,7 +5,7 @@ const props = withDefaults(defineProps<{
   target?: '_blank' | '_self' | '_parent' | '_top',
   activeClass?: string
 }>(), {
-  activeClass: '',
+  activeClass: 'font-bold bg-blue-200 dark:bg-blue-900',
   target: '_self'
 })
 </script>
