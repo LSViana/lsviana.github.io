@@ -21,7 +21,7 @@ import LvLink from '~/components/shared/LvLink.vue'
       <li>
         <p>Y-CRDT contribution as C# developer</p>
         <small>
-          — Worked on <LvLink href="https://github.com/LSViana/ydotnet" target="_blank">YDotNet</LvLink>
+          — <LvLink href="https://github.com/LSViana/ydotnet" target="_blank">YDotNet</LvLink>
           (.NET bindings for <LvLink href="https://github.com/y-crdt/y-crdt" target="_blank">Yrs</LvLink>)
         </small>
       </li>
