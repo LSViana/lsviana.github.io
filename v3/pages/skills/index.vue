@@ -30,6 +30,7 @@
     </h2>
     <ul class="mt-4 flex flex-col gap-2">
       <li>Figma</li>
+      <li>Framer</li>
       <li>Storybook</li>
     </ul>
   </section>
