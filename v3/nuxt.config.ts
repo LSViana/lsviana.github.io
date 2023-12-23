@@ -20,5 +20,11 @@ export default defineNuxtConfig({
         lang: 'en'
       }
     }
+  },
+  routeRules: {
+    '*': {
+      prerender: false,
+      redirect: 'https://lsviana.framer.website/'
+    }
   }
 })
