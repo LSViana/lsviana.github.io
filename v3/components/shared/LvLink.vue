@@ -6,7 +6,9 @@ const props = withDefaults(defineProps<{
   activeClass?: string
 }>(), {
   activeClass: 'font-bold bg-blue-200 dark:bg-blue-900',
-  target: '_self'
+  target: '_self',
+  to: undefined,
+  href: undefined,
 })
 </script>
 
