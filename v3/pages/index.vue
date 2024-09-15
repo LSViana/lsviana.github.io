@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import LvLink from '~/components/shared/LvLink.vue'
+
+await navigateTo(
+    'https://lsviana.framer.website/',
+    {external: true}
+)
 </script>
 
 <template>
