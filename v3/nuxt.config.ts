@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt/config'
+import {defineNuxtConfig} from 'nuxt/config'
 
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint'],
@@ -18,5 +18,9 @@ export default defineNuxtConfig({
         lang: 'en'
       }
     }
+  },
+  compatibilityDate: '2024-09-15',
+  devServer: {
+    host: '0.0.0.0',
   }
 })
