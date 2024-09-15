@@ -1,9 +1,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/tailwindcss'
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint'],
   css: [
     '~/assets/styles/app.scss'
   ],
