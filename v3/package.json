@@ -8,11 +8,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.23.3",
-    "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@nuxtjs/tailwindcss": "6.10.1",
-    "eslint": "^8.56.0",
-    "nuxt": "^3.8.2",
-    "sass": "^1.69.5"
+    "@babel/eslint-parser": "^7.25.1",
+    "@nuxt/eslint": "^0.5.7",
+    "@nuxtjs/tailwindcss": "6.12.1",
+    "@stylistic/eslint-plugin": "^2.8.0",
+    "@volar/language-server": "2.4.5",
+    "@vue/language-server": "2.1.6",
+    "eslint": "^9.10.0",
+    "nuxt": "^3.13.1",
+    "sass": "^1.78.0"
   }
 }
